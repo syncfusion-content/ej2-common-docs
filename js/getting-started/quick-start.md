@@ -276,7 +276,6 @@ Open the `~/quickstart/index.html` file in the web browser and it will render th
 {% endtabs %}
 
 {% previewsample "page.domainurl/code-snippet/common/getting-started-cs2" %}
-{% endif %}
 
 To learn more about the functionality of the Grid control, refer to the [Grid control](https://ej2.syncfusion.com/javascript/documentation/grid/getting-started/) section.
 

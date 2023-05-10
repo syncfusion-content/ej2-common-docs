@@ -144,9 +144,6 @@ In the example below, the icon colour is customized with custom color.
 {% if page.publishingplatform == "typescript" %}
 
  {% tabs %}
-{% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/common/icons-customization-cs1/index.ts %}
-{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/common/icons-customization-cs1/index.html %}
 {% endhighlight %}
@@ -157,9 +154,6 @@ In the example below, the icon colour is customized with custom color.
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
-{% highlight js tabtitle="index.js" %}
-{% include code-snippet/common/icons-customization-cs1/index.js %}
-{% endhighlight %}
 {% highlight html tabtitle="index.html" %}
 {% include code-snippet/common/icons-customization-cs1/index.html %}
 {% endhighlight %}
