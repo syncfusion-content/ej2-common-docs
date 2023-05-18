@@ -56,7 +56,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
     2. Accept the default **ButtonComponent description** as your web part description, and then press the <kbd>Enter</kbd> key.
     3. Accept the default **No javascript framework** as the framework, and then press the <kbd>Enter</kbd> key.
 
-    ![ej2 spfx setup](images/sharepoint-setup.png)
+![ej2 spfx setup](images/sharepoint-setup.png)
 
 4.After configuring the above setup, the Yeoman generator will create the SharePoint client-side web part under `ej2-sharepoint` folder and install the required default dependencies.
 
@@ -121,12 +121,12 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     Click the `Add a new web part in column one`.
 
-    ![ej2 spfx initial view](images/sharepoint-webpart.png)
+![ej2 spfx initial view](images/sharepoint-webpart.png)
 
     Select the `ButtonComponent` web part.
 
-    ![ej2 spfx button web part](images/sharepoint-button-webpart.png)
+![ej2 spfx button web part](images/sharepoint-button-webpart.png)
 
     Finally, the Syncfusion JavaScript Button control is rendered in the SharePoint Framework client-side web part.
 
-    ![ej2 spfx button rendered](images/sharepoint-button.png)
+![ej2 spfx button rendered](images/sharepoint-button.png)

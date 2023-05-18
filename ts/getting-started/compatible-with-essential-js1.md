@@ -23,7 +23,7 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
 
 ## Creating JavaScript application with Essential JS 2 control
 
-1.You can create a JavaScript application with the help of the given Essential JS 2 [getting started documentation](./quick-start/).
+1.You can create a JavaScript application with the help of the given Essential JS2 [getting started documentation](./quick-start/).
 
 2.Now the Essential JS 2 Button control rendered successfully in the web page.
 
@@ -35,7 +35,7 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
     npm install syncfusion-javascript @types/ej.web.all @types/jquery
     ```
 
-    ![ej1 npm package install](images/ej1-npm-install.png)
+ ![ej1 npm package install](images/ej1-npm-install.png)
 
 2.Add the necessary Essential JS 1 scripts in the `<head>` element and add the HTML Button element inside `<body>` element in the `~/src/index.html` for rendering Essential JS 1 Button control.
 
@@ -105,4 +105,4 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
 
     The Essential JS 1 and Essential JS 2 Button control will be rendered in the same web page.
 
-    ![ej1 and ej2 button](./images/ej1-ej2-button.png)
+![ej1 and ej2 button](./images/ej1-ej2-button.png)

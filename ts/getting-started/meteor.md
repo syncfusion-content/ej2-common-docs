@@ -43,7 +43,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
     meteor create ej2-meteor
     ```
 
-    ![ej2 meteor new project](images/meteor-new-app.png)
+![ej2 meteor new project](images/meteor-new-app.png)
 
 3.Now, navigate to the created project location `ej2-meteor`, and install the required default dependencies from the command prompt.
 
@@ -52,7 +52,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
     meteor npm install
     ```
 
-    ![ej2 meteor npm install](images/meteor-npm-install.png)
+![ej2 meteor npm install](images/meteor-npm-install.png)
 
 ## Configure Essential JS 2 control in application
 
@@ -62,7 +62,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
     meteor npm install @syncfusion/ej2 --save
     ```
 
-    ![ej2 meteor npm ej2 install](images/meteor-ej2-install.png)
+![ej2 meteor npm ej2 install](images/meteor-ej2-install.png)
 
     For getting started, the Calendar control will be added in the new application.
 
@@ -123,11 +123,11 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     Open the localhost URL in the web brower.
 
-    ![ej2 meteor build](images/meteor-build.png)
+![ej2 meteor build](images/meteor-build.png)
 
     The Calendar control will now be rendered in the browser.
 
-    ![ej2 meteor calendar](images/meteor-calendar.png)
+![ej2 meteor calendar](images/meteor-calendar.png)
 
     > If you face any memory issue when running the above command line, increase the memory by adding `TOOL_NODE_FLAGS --max-old-space-size=4096` system environment variable. Refer to this [GitHub issue](https://github.com/meteor/meteor/issues/9568#issuecomment-359785483) for more information.
 

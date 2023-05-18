@@ -42,7 +42,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     > The list of available starter template can be listed by running `ionic start --list` command line.
 
-    ![ej2 ionic new app](images/ionic-create-app.png)
+![ej2 ionic new app](images/ionic-create-app.png)
 
     > Type `yes` and press the <kbd>Enter</kbd> key if the application needs to be integrated with Cordova to target native IOS and Android.
 
@@ -131,4 +131,4 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     The Calendar control will be rendered in the Ionic application as shown in the following screenshot.
 
-    ![ionic ej2 calendar](images/ionic-calendar.png)
+![ionic ej2 calendar](images/ionic-calendar.png)
