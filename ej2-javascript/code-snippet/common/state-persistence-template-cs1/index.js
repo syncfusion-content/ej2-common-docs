@@ -1,8 +1,5 @@
-import { Grid, Page } from '@syncfusion/ej2-grids';
-import { data } from './datasource.ts';
-Grid.Inject(Page);
 
-let grid: Grid = new Grid({
+var grid = new ej.grids.Grid({
     dataSource: data,
     enablePersistence: true,
     columns: [
@@ -15,4 +12,3 @@ let grid: Grid = new Grid({
     pageSettings: { pageSize: 7 }
 });
 grid.appendTo('#Grid');
-
