@@ -24,23 +24,23 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     on Windows:
 
-    ```
+ ```
     npm install -g yo gulp @microsoft/generator-sharepoint
-    ```
+ ```
 
     on OSX / LINUX
 
-    ```
+ ```
     sudo npm install -g yo gulp @microsoft/generator-sharepoint
-    ```
+ ```
 
     > The Yeoman SharePoint web part generator [`@microsoft/generator-sharepoint`](https://www.npmjs.com/package/@microsoft/generator-sharepoint) helps to create a SharePoint client-side project using [`Yeoman`](http://yeoman.io/) tool.
 
 2.Then, create a new client-side web part by running the Yeoman SharePoint Generator.
 
-    ```
+ ```
     yo @microsoft/sharepoint
-    ```
+ ```
 
 3.Set up the following options when the above command is prompted.
 
@@ -64,16 +64,16 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Install the [`@syncfusion/ej2`](https://www.npmjs.com/package/@syncfusion/ej2) npm package in the application using the following command line.
 
-    ```
+ ```
     npm install @syncfusion/ej2 --save
-    ```
+ ```
 
 2.Open the SharePoint application in Visual Studio Code, and add the Syncfusion JavaScript Button control script and styles in the `~/src/webparts/buttonComponent/ButtonComponentWebPart.ts` file.
 
     1. Import the Button source and add Syncfusion JavaScript style reference at the top of the file.
     2. Add the HTML button element in `this.domElement.innerHTML`, and initialize the Syncfusion JavaScript Button in the `render()` method of `ButtonComponentWebPart` class.
 
-    ```ts
+ ```ts
     ....
     ....
 
@@ -111,13 +111,13 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
         ....
         ....
     }
-    ```
+ ```
 
 3.Run the application using the following command line, and the Syncfusion JavaScript Button control will be rendered in web browser.
 
-    ```
+ ```
     gulp serve
-    ```
+ ```
 
     Click the `Add a new web part in column one`.
 

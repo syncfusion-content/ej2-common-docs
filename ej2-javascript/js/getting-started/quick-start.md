@@ -211,7 +211,7 @@ You can access Syncfusion control resources using either of the following method
 
 Now, add the Grid element and `Syncfusion JavaScript (ES5) Grid` control in the `~/quickstart/index.html` file as follows.
 
-    ```
+```
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
@@ -263,7 +263,7 @@ Now, add the Grid element and `Syncfusion JavaScript (ES5) Grid` control in the 
         </script>
         </body>
     </html>
-    ```
+```
 
 ## Run the application
 

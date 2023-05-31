@@ -78,23 +78,23 @@ The following steps explain the direct rendering of the Syncfusion icon in the H
 
 2.Add the icon class with corresponding icon content from the [available icons](#available-icons). For example, the below code snippet represents the paste icon class.
 
-    ```
+ ```
     .e-paste:before {
         content:'\e355';
     }
-    ```
+ ```
 
 3.Add `e-icons` and `e-paste` classes to the HTML element.
 
-    ```
+ ```
     <span class="e-icons e-paste"></span>
-    ```
+ ```
 
 4.Add the CDN link reference of icons library in the `~index.html` file.
 
-    ```
+ ```
     <link href="https://cdn.syncfusion.com/ej2/ej2-icons/styles/bootstrap5.css" rel="stylesheet" />
-    ```
+ ```
 
 
 ### Icon size
