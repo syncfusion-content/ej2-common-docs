@@ -75,17 +75,17 @@ Large components provides the module injection for their features. For example, 
 
 1. Clone Syncfusion JavaScript (Essential JS 2) seed application from [GitHub](https://github.com/syncfusion/ej2-typescript-seed.git)
 
-    ```
+ ```
     git clone https://github.com/syncfusion/ej2-typescript-seed.git webpack-demo
     cd webpack-demo
     npm install
-    ```
+ ```
 
 2. This application is pre-configured with Webpack. The `webpack.config.js` file in the root of the application can be customized based on the requirement.
 
 3. Add the below code snippets in the `~/src/app/index.ts` file.
 
-    ```ts
+ ```ts
     import { Grid, Sort } from '@syncfusion/ej2-grids';
     import { data } from './datasource.ts';
 
@@ -103,10 +103,10 @@ Large components provides the module injection for their features. For example, 
         height: 315
     });
     grid.appendTo('#Grid');
-    ```
+ ```
 4. Create a `~/src/app/datasource.ts` file and add the below content for Grid data-source.
 
-    ```ts
+ ```ts
     export let data: Object[] = [
         {
             OrderID: 10248, CustomerID: 'VINET', EmployeeID: 5, OrderDate: new Date(8364186e5),
@@ -124,11 +124,11 @@ Large components provides the module injection for their features. For example, 
             ShipRegion: 'RJ', ShipPostalCode: '05454-876', ShipCountry: 'Brazil', Freight: 65.83, Verified: !0
         }
     ];
-    ```
+ ```
 
 5. Replace the below code snippet to the `<body>` element in `~/src/app/index.html` file.
 
-    ```
+ ```
     <body>
         <div style="margin: 50px;">
             <div id='Grid'></div>
@@ -136,7 +136,7 @@ Large components provides the module injection for their features. For example, 
 
         <script src="index.js" type="text/javascript"></script>
     </body>
-    ```
+ ```
 
 6. Open the command prompt from the application folder and run the command line `npm start`. After Webpack compilation, `index.js` file will be created for the necessary codes of the application and the unused modules are excluded in the Webpack bundle.
 
@@ -144,15 +144,15 @@ Large components provides the module injection for their features. For example, 
 
 1. Clone Syncfusion JavaScript (Essential JS 2) seed application from the GitHub repository and navigate to the cloned folder.
 
-    ```
+ ```
     git clone https://github.com/syncfusion/ej2-typescript-seed.git webpack-demo
     cd webpack-demo
     npm install
-    ```
+ ```
 
 2. Edit the `~/webpack.config.js` file with the below code snippet.
 
-    ```javascript
+ ```javascript
     var webpack = require('webpack');
 
     module.exports = {
@@ -173,7 +173,7 @@ Large components provides the module injection for their features. For example, 
             extensions: [".ts", ".js"]
         },
     }
-    ```
+ ```
 
 3. Run the command line `npm start` to run the application.
 

@@ -27,15 +27,15 @@ To get started with application, ensure the following software to be installed i
 
 Open the command prompt from the required directory, and run the following command to clone the Syncfusion JavaScript (Essential JS 2) quickstart project from [GitHub](https://github.com/SyncfusionExamples/ej2-quickstart-webpack-).
 
-    ```
+```
     git clone https://github.com/SyncfusionExamples/ej2-quickstart-webpack- ej2-quickstart
-    ```
+```
 
 After cloning the application in the `ej2-quickstart` folder, run the following command line to navigate to the `ej2-quickstart` folder.
 
-    ```
+```
     cd ej2-quickstart
-    ```
+```
 
 ## Add Syncfusion JavaScript packages
 
@@ -43,10 +43,10 @@ Syncfusion JavaScript (Essential JS 2) packages are available on the [npmjs.com]
 
 The quickstart application is preconfigured with the dependent [@syncfusion/ej2](https://www.npmjs.com/package/@syncfusion/ej2) package in the `~/package.json` file. Use the following command to install the dependent npm packages from the command prompt.
 
-    ```
+```
     npm install
-    ```
-    ![ej2 typescript seed local setup](images/local-setup.png)
+```
+![ej2 typescript seed local setup](images/local-setup.png)
 
 > To learn more about the individual packages and different ways to install them, refer [here](https://ej2.syncfusion.com/documentation/installation-and-upgrade/installation/).
 
@@ -68,7 +68,7 @@ Open the application in Visual Studio Code and add the Syncfusion JavaScript UI 
 
 In this article, the Grid control is used as an example. Add the following Grid element to the `~/src/index.html` file.
 
-    ```
+```
     <!DOCTYPE html>
     <html lang="en">
 
@@ -88,11 +88,11 @@ In this article, the Grid control is used as an example. Add the following Grid 
     </body>
 
     </html>
-    ```
+ ```
 
 To render the Grid control, add the following JavaScript code to the `~/src/app/app.ts` file
 
-    ```ts
+```ts
     import { Grid } from '@syncfusion/ej2-grids';
     
     // Grid data
@@ -128,15 +128,15 @@ To render the Grid control, add the following JavaScript code to the `~/src/app/
 
     // render initialized grid
     grid.appendTo('#Grid');
-    ```
+```
 
 ## Run the application
 
 Now, run the application in the browser using the following command.
 
-    ```
+```
     npm start
-    ```
+```
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
