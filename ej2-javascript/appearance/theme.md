@@ -149,7 +149,7 @@ In the application, Syncfusion themes can be changed dynamically by changing the
 
 * Add the theme CDN link and DropDownList element to the HTML file using the following code.
 
-```
+```html
 <!DOCTYPE html>
 <html lang="en">
 

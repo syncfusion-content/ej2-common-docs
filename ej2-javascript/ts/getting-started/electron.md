@@ -88,7 +88,7 @@ Open the application in Visual Studio Code and import the `Material` theme for t
 
 Create a `~/index.html` file in the application root directory and add the following code snippet.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
