@@ -68,7 +68,7 @@ Open the application in Visual Studio Code and add the Syncfusion JavaScript UI 
 
 In this article, the Grid control is used as an example. Add the following Grid element to the `~/src/index.html` file.
 
-```
+```html
     <!DOCTYPE html>
     <html lang="en">
 

@@ -139,8 +139,8 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 2.Add the Syncfusion JavaScript UI cotrols in the application. For getting started, the Button control is added in the application `~/www/index.html` file.
 
-    ```
-    <!DOCTYPE html>
+ ```html
+     <!DOCTYPE html>
     <html lang="en">
 
     <head>
