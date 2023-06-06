@@ -100,7 +100,7 @@ You can access Syncfusion control resources using either of the following method
 
 * Once copy/paste the individual scripts and styles to the `~/quickstart/resources/` location. Add the required Grid control resources to the `~/quickstart/index.html` file in the following order.
 
-    ```
+ ```html
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
@@ -183,7 +183,7 @@ You can access Syncfusion control resources using either of the following method
 
 * Add the following Grid control CDN link references in the given order to the `~/quickstart/index.html` file.
 
-    ```
+ ```html
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
         <head>
@@ -211,7 +211,7 @@ You can access Syncfusion control resources using either of the following method
 
 Now, add the Grid element and `Syncfusion JavaScript (ES5) Grid` control in the `~/quickstart/index.html` file as follows.
 
-```
+ ```html
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
         <head>

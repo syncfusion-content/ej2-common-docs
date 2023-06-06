@@ -106,7 +106,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 4.Add the Syncfusion JavaScript styles inside `<head>` element in `~/src/index.html` file.
 
-    ```
+ ```html
     <!DOCTYPE html>
     <html lang="en" dir="ltr">
         <head>
