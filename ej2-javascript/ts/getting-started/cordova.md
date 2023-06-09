@@ -131,9 +131,9 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Install [`@syncfusion/ej2`](https://www.npmjs.com/package/@syncfusion/ej2) npm package in the application using the following command line.
 
-    ```
+ ```
     npm install @syncfusion/ej2 --save
-    ```
+ ```
 
 ![ej2 cordova npm ej2 install](images/cordova-ej2-install.png)
 
@@ -164,11 +164,11 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
     </body>
 
     </html>
-    ```
+ ```
 
 3.Now, create a folder `~/www/ts`, and render the Button control using following TypeScript code in the `~/www/ts/ej2.ts` file.
 
-    ```ts
+ ```ts
     import { Button } from '@syncfusion/ej2-buttons';
 
     // initialize button control
@@ -176,32 +176,32 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     // render initialized button
     button.appendTo('#normalbtn');
-    ```
+ ```
 
     > This `~/www/ts/ej2.ts` file reference has already been added in the `files` option of `~/tsconfig.json` file.
 
 4.Add the Syncfusion JavaScript style reference inside the `<head>` element in the `~/www/index.html` file.
 
-    ```
+ ```
     <head>
         ....
         ....
         <!-- Essential JS 2 styles -->
         <link rel="stylesheet" type="text/css" href="http://cdn.syncfusion.com/ej2/material.css">
     </head>
-    ```
+ ```
 
 5.Now, run the following command line to compile the TypeScript file into JavaScript AMD module file. The compiled JavaScript output file will be placed in `~/www/js/ej2.js`.
 
-    ```
+ ```
     npm run build
-    ```
+ ```
 
     > This node script has already been configured in the `~/package.json` file's `scripts` section.
 
 6.After compiling TypeScript file, add the `RequireJS` configurations in the script reference at the end of `<body>` element in `~/www/index.html` file.
 
-    ```
+ ```
     <body>
         ....
         ....
@@ -218,7 +218,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
             });
         </script>
     </body>
-    ```
+ ```
 
     > The `data-main` attribute in `RequireJS` script reference is used to load the entry point of the AMD file in the application, and it will be loaded asynchronously at the run time. Refer to this [documentation](https://requirejs.org/docs/api.html#data-main) for more information about `data-main` attribute in `RequireJS`.
     >
@@ -228,11 +228,11 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 7.Finally, run the following command line to start the application. The button control will be rendered in the Cordova application.
 
-    ```
+ ```
     cordova run browser
-    ```
+ ```
 
-    ![ej2 cordova button](images/cordova-button.png)
+ ![ej2 cordova button](images/cordova-button.png)
 
     > The command line `npm run build & cordova run browser` will compile the TypeScript files and then run the application by a single step.
 
@@ -244,15 +244,15 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 2.Run the following command line to add the Android platform in the Cordova application after installing the [required software](https://cordova.apache.org/docs/en/8.x/guide/platforms/android/index.html#installing-the-requirements).
 
-    ```
+  ```
     cordova platform add android
-    ```
+ ```
 
 3.Then, run the following command line to start the Cordova application in Android emulator.
 
-    ```
+ ```
     cordova run android
-    ```
+ ```
 
 ### IOS
 
@@ -260,30 +260,30 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 2.After installing the [required software](https://cordova.apache.org/docs/en/8.x/guide/platforms/ios/index.html#installing-the-requirements), run the following command line to add the IOS platform in the Cordova application.
 
-    ```
+ ```
     cordova platform add ios
-    ```
+ ```
 
     > If this application need to be started in the OSX configuration, add it using the command line `cordova platform add osx`. Refer to this [documentation](https://cordova.apache.org/docs/en/8.x/guide/platforms/osx/index.html) for more information about OSX platform development in Cordova.
 
 3.Now, run the following command line to start the Cordova application in IOS simulator.
 
-    ```
+ ```
     cordova run ios
-    ```
+ ```
 
 ### Windows
 
 1.Run the following command line to add the Windows platform in the Cordova application after installing the [required software](https://cordova.apache.org/docs/en/8.x/guide/platforms/windows/index.html#requirements-and-support).
 
-    ```
+ ```
     cordova platform add windows
-    ```
+ ```
 
 2.Then, run the following command line to start the Cordova application in Windows emulator.
 
-    ```
+ ```
     cordova run windows
-    ```
+ ```
 
 > Refer to this [documentation](https://cordova.apache.org/docs/en/8.x/guide/platforms/windows/index.html) for more information about Windows platform development in Cordova.

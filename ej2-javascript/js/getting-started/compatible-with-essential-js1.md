@@ -65,7 +65,7 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
 
     > The Essential JS 1 scripts must be added before the Essential JS 2 script reference.
 
- ```html
+```html
     <!DOCTYPE html>
     <html xmlns="http://www.w3.org/1999/xhtml">
 
@@ -99,7 +99,7 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
         </body>
 
     </html>
-    ```
+```
 
 4. Initialize the Essential JS 1 and Essential JS 2 Button control inside the `<script>` element in `~/quickstart/index.html` file.
 
