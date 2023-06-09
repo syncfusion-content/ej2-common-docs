@@ -122,7 +122,7 @@ You can access Syncfusion control resources using either of the following method
             ...
         </body>
       </html>
-    ```
+```
 
 ### Using CDN link for scripts and styles
 
@@ -205,7 +205,7 @@ You can access Syncfusion control resources using either of the following method
             ...
         </body>
       </html>
-    ```
+```
 
 ## Add Syncfusion control to the application
 
