@@ -24,21 +24,21 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     on Windows:
 
-    ```
+ ```
     npm install -g ionic cordova
-    ```
+ ```
 
     on OSX / LINUX:
 
-    ```
+ ```
     sudo npm install -g ionic cordova
-    ```
+```
 
 2.Then, run the following command line to create a new Ionic blank template application. The new application will be placed under `ej2-ionic` folder after the command complete its process, and it will install the default `npm` dependent packages when creating the application.
 
-    ```
+ ```
     ionic start ej2-ionic blank
-    ```
+ ```
 
     > The list of available starter template can be listed by running `ionic start --list` command line.
 
@@ -50,16 +50,16 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Navigate to the `ej2-ionic` folder from the command prompt, and install the [`@syncfusion/ej2`](https://www.npmjs.com/package/@syncfusion/ej2) npm package in the application using the following command line.
 
-    ```
+ ```
     cd ej2-ionic
     npm install @syncfusion/ej2 --save
-    ```
+ ```
 
-    ![ionic ej2 install](images/ionic-ej2-install.png)
+ ![ionic ej2 install](images/ionic-ej2-install.png)
 
 2.For getting started, the Calendar control will be added in the new application. Open the application in Visual Studio Code, and add the `<div>` element inside the `<ion-content>` element in `~/src/app/home/home.page.html` file for rendering the Calendar control.
 
-    ```
+ ```
     <ion-header>
         ....
         ....
@@ -73,11 +73,11 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
         <!--HTML element which is going to render as Essential JS 2 Calendar control-->
         <div id="element"></div>
     </ion-content>
-    ```
+ ```
 
 3.Import the Calendar class from `@syncfusion/ej2-calendars` package, and render the Calendar control inside the `platform.ready()` method's callback function of `MyApp` class in `~/src/app/home/home.page.ts` file.
 
-    ```ts
+ ```ts
     ....
     ....
     import { Calendar } from "@syncfusion/ej2-calendars";
@@ -102,11 +102,12 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
             });
         }
     }
-    ```
+```
 
 4.Add the Syncfusion JavaScript styles inside `<head>` element in `~/src/index.html` file.
 
  ```html
+
     <!DOCTYPE html>
     <html lang="en" dir="ltr">
         <head>
@@ -121,13 +122,13 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
             ....
         </body>
     </html>
-    ```
+```
 
 5.Finally, run the following command line to start the Ionic application.
 
-    ```
+```
     ionic serve
-    ```
+```
 
     The Calendar control will be rendered in the Ionic application as shown in the following screenshot.
 
