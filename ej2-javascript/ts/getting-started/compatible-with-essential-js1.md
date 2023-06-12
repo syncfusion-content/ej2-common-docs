@@ -31,15 +31,15 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
 
 1.Install the Essential JS 1 npm package with required dependent typing package in the JavaScript quick start application.
 
-    ```
-    npm install syncfusion-javascript @types/ej.web.all @types/jquery
-    ```
+   ```
+      npm install syncfusion-javascript @types/ej.web.all @types/jquery
+   ```
 
  ![ej1 npm package install](images/ej1-npm-install.png)
 
 2.Add the necessary Essential JS 1 scripts in the `<head>` element and add the HTML Button element inside `<body>` element in the `~/src/index.html` for rendering Essential JS 1 Button control.
 
-    ```
+ ```
     <head>
         ....
         ....
@@ -56,7 +56,7 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
             <button id="button">Button</button>
         </div>
     </body>
-    ```
+ ```
 
     > Refer to this [documentation](https://help.syncfusion.com/js/dependencies) to know more about Essential JS 1 dependencies.
 
@@ -66,24 +66,24 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
 
     Replace the `style.css` file content with the below style references.
 
-    ```
-    @import '../../node_modules/@syncfusion/ej2/styles/compatibility/material.css';
-    @import '../../node_modules/syncfusion-javascript/Content/ej/web/material/ej.web.all.compatibility.min';
-    ```
+  ```
+     @import '../../node_modules/@syncfusion/ej2/styles/compatibility/material.css';
+     @import '../../node_modules/syncfusion-javascript/Content/ej/web/material/ej.web.all.compatibility.min';
+  ```
 
 4.Add the Essential JS 1 type reference to the `types` compiler options in `~/tsconfig.json` file.
 
-    ```
+ ```
     {
         "compilerOptions": {
             "types": ["ej.web.all"]
         }
     }
-    ```
+ ```
 
 5.Now, add the Essential JS 1 Definitely Typed references and create the Essential JS 1 Button control in the `~/src/app/app.ts` file.
 
-    ```ts
+ ```ts
     /**
     * Essential JS 1 Button
     */
@@ -95,13 +95,13 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
             var sample = new ej.Button($("#button"));
         });
     }
-    ```
+  ```
 
 6.Finally, run the below command line and it will open the web application in the web browser.
 
-    ```
+ ```
     npm start
-    ```
+ ```
 
     The Essential JS 1 and Essential JS 2 Button control will be rendered in the same web page.
 
