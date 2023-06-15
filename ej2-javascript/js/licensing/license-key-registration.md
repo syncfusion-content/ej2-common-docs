@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # License key registration in ##Platform_Name## Licensing control
 
-Syncfusion license key should be registered, if your project using Syncfusion JavaScript (ES5) packages reference. The generated license key is a string that needs to be registered after any [Syncfusion JavaScript (ES5) reference](https://ej2.syncfusion.com/javascript/documentation/getting-started/angular-cli/#create-a-new-application).
+Syncfusion license key should be registered, if your project using Syncfusion JavaScript (ES5) packages reference. The generated license key is a string that needs to be registered after any [Syncfusion JavaScript (ES5) reference](https://ej2.syncfusion.com/javascript/documentation/getting-started/compatible-with-essential-js1/).
 
 >Note: Syncfusion license validation is done offline during application execution and does not require internet access. Apps registered with a Syncfusion license key can be deployed on any system that does not have an internet connection.
 
