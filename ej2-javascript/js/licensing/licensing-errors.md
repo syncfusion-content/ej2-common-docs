@@ -73,7 +73,7 @@ If the application is registered with an invalid key, another version of license
 
 The following error message will be shown if a Syncfusion license key has not been registered in your application.
 
-**Error message:** <br /> This application was built using a trial version of Syncfusion Essential Studio. Please include a valid license to permanently remove this license validation message. You can also obtain a free 30 day evaluation license to temporarily remove this message during the evaluation period. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/licensing-errors#license-key-not-registered) for more information.
+**Error message:** <br /> This application was built using a trial version of Syncfusion Essential Studio. Please include a valid license to permanently remove this license validation message. You can also obtain a free 30 day evaluation license to temporarily remove this message during the evaluation period. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/licensing-errors#license-key-not-registered) for more information.
 
 ![License key not registered](images/licensing-error-1.png)
 
@@ -91,13 +91,13 @@ The following error message will be shown if a Syncfusion license key has not be
 
 4. If you **do not already have a Syncfusion account**, you can create one [here](https://www.syncfusion.com/account/register) and [purchase a license](https://www.syncfusion.com/sales/products) or start your 30-day free trial. Then you can **generate the trial license key for a specific version and platform** from [this page](https://www.syncfusion.com/account/manage-trials/start-trials).
 
-* In your application, register the generated license key. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/license-key-registration/) for information on registering the license key.
+* In your application, register the generated license key. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration/) for information on registering the license key.
 
 ### Invalid key
 
 If the application is registered with an invalid key, another version of license key, or another platform’s license key, the following error message will pop up when launching the application.
 
-**Error message:** <br /> The included Syncfusion license is invalid. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/licensing-errors/#invalid-key) for more information.
+**Error message:** <br /> The included Syncfusion license is invalid. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/licensing-errors/#invalid-key) for more information.
 
 ![Invalid key](images/licensing-error-2.png)
 
@@ -121,7 +121,7 @@ If the application is registered with an invalid key, another version of license
 
 The following error message will be shown if the trial key has expired after 30 days.
 
-**Error message:** <br /> Your Syncfusion trial license has expired. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/licensing-errors/#trial-expired) for more information.
+**Error message:** <br /> Your Syncfusion trial license has expired. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/licensing-errors/#trial-expired) for more information.
 
 ![Trial Expired](images/licensing-error-3.png)
 
@@ -131,7 +131,7 @@ The following error message will be shown if the trial key has expired after 30 
 
 If the application is registered with another platform’s license key, the following error message will pop up when launching the application.
 
-**Error message:** <br /> The included Syncfusion license is invalid (Platform mismatch). Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/licensing-errors/#platform-mismatch) for more information.
+**Error message:** <br /> The included Syncfusion license is invalid (Platform mismatch). Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/licensing-errors/#platform-mismatch) for more information.
 
 ![Platform Mismatch](images/licensing-error-4.png)
 
@@ -153,7 +153,7 @@ If the application is registered with another platform’s license key, the foll
 
 If the application is registered with another version’s license key, the following error message will pop up when launching the application.
 
-**Error message:** <br /> The included Syncfusion license ({Registered Version}) is invalid for version {Required version}. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/licensing-errors/#version-mismatch) for more information.
+**Error message:** <br /> The included Syncfusion license ({Registered Version}) is invalid for version {Required version}. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/licensing-errors/#version-mismatch) for more information.
 
 ![Version Mismatch](images/version-mismatch.png)
 
@@ -169,4 +169,4 @@ If the application is registered with another version’s license key, the follo
 
 3. If you **have a Syncfusion account but no active trials**, [purchase a license](https://www.syncfusion.com/sales/products) or [start your 30-day free trial](https://www.syncfusion.com/account/manage-trials/start-trials). Then you can **generate the trial license key for a specific version and product** from [this page](https://www.syncfusion.com/account/downloads).
 
-* In your application, register the generated license key. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/javascript/documentation/licensing/license-key-registration/) for information on registering the license key.
+* In your application, register the generated license key. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration/) for information on registering the license key.
