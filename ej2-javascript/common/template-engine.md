@@ -44,6 +44,8 @@ Syncfusion JavaScript (Essential JS 2) has built-in template engine which provid
 {% previewsample "page.domainurl/code-snippet/common/template-engine-cs1" %}
 {% endif %}
 
+> To enable strict Content Security Policy (CSP), it is recommended to utilize the [function template](./template#function-template) approach instead of the string template.
+
 ## Available template syntax
 
 | Name | Syntax | Description |
