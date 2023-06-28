@@ -71,6 +71,8 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/treegrid/getting-started/">TreeGrid</a></div>
          <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/spreadsheet/getting-started/">Spreadsheet</a></div>
         <div><p class="controlcategory">FILE VIEWERS & EDITORS</p></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/document-editor/getting-started">Document Editor</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/image-editor/getting-started">Image Editor</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/in-place-editor/getting-started/">In-place Editor</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/rich-text-editor/getting-started/">RichTextEditor</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/pdfviewer/getting-started/">PDF Viewer</a></div>
@@ -78,6 +80,7 @@ letter-spacing: 0.7px;
         <div><p class="controlcategory">LAYOUT</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/dialog/getting-started/">Dialog</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/listview/getting-started/">ListView</a></div>
+         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/predefined-dialogs/getting-started">Predefined Dialogs</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/tooltip/getting-started/">Tooltip</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/splitter/getting-started/">Splitter</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/dashboard-layout/getting-started/">Dashboard</a></div>
@@ -86,6 +89,7 @@ letter-spacing: 0.7px;
     </td>
     <td>
         <div><p class="controlcategory">DATA VISUALIZATION</p></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/accumulation-chart/getting-started">Accumulation Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/chart/getting-started/">Charts</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/stock-chart/getting-started/">Stock Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/circular-gauge/getting-started/">Circular Gauge</a></div>
@@ -149,6 +153,7 @@ letter-spacing: 0.7px;
          <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/carousel/getting-started/">Carousel</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/context-menu/getting-started/">Context Menu</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/menu/getting-started/">Menu Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/ribbon/getting-started/">Ribbon</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/sidebar/getting-started/">Sidebar</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/tab/getting-started/">Tabs</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/toolbar/getting-started/">Toolbar</a></div>
