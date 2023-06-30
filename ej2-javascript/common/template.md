@@ -26,26 +26,32 @@ Users can add templates to Syncfusion JavaScript controls by using `string liter
 
 The template string can be added directly to the `template` property of the control. Refer to the following code snippet.
 
-```ts
-import { Grid } from '@syncfusion/ej2-grids';
-    
-let grid: Grid = new Grid({
-    columns: [
-        { field: 'OrderID', headerText: 'Order ID', textAlign: 'Right', width: 125 },
-        { field: 'CustomerName', headerText: 'Customer Name', width: 125 },
-        { headerText: 'ShipCountry', template: '<div>${ShipCountry}</div>', width: 125 },
-    ],
-    dataSource: [
-        { OrderID: 10248, ShipCountry: "France", CustomerName: "Paul Henriot" },
-        { OrderID: 10249, ShipCountry: "Germany", CustomerName: "Karin Josephs" },
-        { OrderID: 10250, ShipCountry: "Brazil", CustomerName: "Mario Pontes" },
-        { OrderID: 10251, ShipCountry: "France", CustomerName: "Mary Saveley" }
-    ],
-    width: 'auto',
-    height: 359
-});
-grid.appendTo('#Grid');
-```
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/common/string-template/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/string-template/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/common/string-template" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/common/string-template/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/string-template/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/common/string-template" %}
+{% endif %}
 
 ## Script template
 
@@ -53,31 +59,37 @@ A script template is a type of template that uses a scripting language, such as 
 
 Add the below HTML template to the `index.html` file.
 
-```
+```html
 <script id="customTemplate" type="text/x-template">
-  <div class="template">${ShipCountry}</div>
+  <b class="template">${ShipCountry}</b>
 </script>
 ```
 
 Here, the script template identifier (customTemplate) is assigned to the `template` property of the Grid control. Refer to the following code snippet.
 
-```ts
-import { Grid } from '@syncfusion/ej2-grids';
-    
-let grid: Grid = new Grid({
-    columns: [
-        { field: 'OrderID', headerText: 'Order ID', textAlign: 'Right', width: 125 },
-        { field: 'CustomerName', headerText: 'Customer Name', width: 125 },
-        { headerText: 'ShipCountry', template: '#customTemplate', width: 125 },
-    ],
-    dataSource: [
-        { OrderID: 10248, ShipCountry: "France", CustomerName: "Paul Henriot" },
-        { OrderID: 10249, ShipCountry: "Germany", CustomerName: "Karin Josephs" },
-        { OrderID: 10250, ShipCountry: "Brazil", CustomerName: "Mario Pontes" },
-        { OrderID: 10251, ShipCountry: "France", CustomerName: "Mary Saveley" }
-    ],
-    width: 'auto',
-    height: 359
-});
-grid.appendTo('#Grid');
-```
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/common/script-template/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/script-template/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/common/script-template" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/common/script-template/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/script-template/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/common/script-template" %}
+{% endif %}

@@ -1,5 +1,6 @@
 #container {
     visibility: hidden;
+    display: flex;
 }
 
 #loader {
@@ -15,11 +16,10 @@
     background: #333333;
     border: 1px solid #cecece;
     box-sizing: border-box;
-    float: left;
     height: 100px;
     width:100px;
 }
 
-#element2 {
-    margin-left: 20px;
+#container #element1, #container #element2 {
+    margin-right: 50px;
 }

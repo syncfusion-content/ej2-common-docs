@@ -1,14 +1,17 @@
 
 
 import { ListView } from '@syncfusion/ej2-lists';
-import { data } from './datasource.ts';
+import { menuItems } from './datasource.ts';
+
+let arts: String[] = ["Artwork", "Abstract", "Modern Painting", "Ceramics", "Animation Art", "Oil Painting"];
+
 let rtlListObj: ListView = new ListView({
-    dataSource: data,
+    dataSource: arts,
     enableRtl: true,
-    headerTitle: 'کاریں',
+    headerTitle: 'Painting types',
     showHeader: true,
-    height: '350px'
+    height: '280px'
     });
 rtlListObj.appendTo('#listview');
 
-
+let menuObj: Menu = new Menu({ items: menuItems }, '#menu');

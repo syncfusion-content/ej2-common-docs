@@ -19,7 +19,7 @@ Syncfusion [Animation](https://ej2.syncfusion.com/documentation/api/base/animati
 
 An animation effect refers to the visual change that occurs over a period of time in HTML elements. The [Animation](https://ej2.syncfusion.com/documentation/api/base/animation/) library supports different types of animation [effects](https://ej2.syncfusion.com/documentation/api/base/effect/#effect). The [name](https://ej2.syncfusion.com/documentation/api/base/animation/#name) property is used to specify the animation effect of an animation.
 
-Here is an example code snippet using the `FadeOut` and `ZoomOut` animation effects:
+Here is an example code snippet using the `FlipLeftUpIn` and `SlideTopIn` animation effects:
 
 {% if page.publishingplatform == "typescript" %}
 

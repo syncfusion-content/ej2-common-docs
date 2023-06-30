@@ -1,9 +1,12 @@
+var arts = ["Artwork", "Abstract", "Modern Painting", "Ceramics", "Animation Art", "Oil Painting"];
+
 var rtlListObj = new ej.lists.ListView({
-    dataSource: data,
+    dataSource: arts,
     enableRtl: true,
-    headerTitle: 'کاریں',
+    headerTitle: 'Painting types',
     showHeader: true,
-    height: '350px'
+    height: '280px'
     });
 rtlListObj.appendTo('#listview');
 
+var menuObj = new ej.navigations.Menu({ items: menuItems }, '#menu');

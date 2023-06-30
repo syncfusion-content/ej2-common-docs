@@ -1,6 +1,7 @@
 #container {
     visibility: hidden;
     padding: 10px;
+    text-align: center;
 }
 
 #loader {
@@ -11,3 +12,10 @@
     top: 45%;
     left: 45%;
 }
+
+#listview {
+    max-width: 400px;
+    margin: auto;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+  }

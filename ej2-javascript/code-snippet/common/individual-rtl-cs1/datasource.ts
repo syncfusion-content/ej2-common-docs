@@ -1,32 +1,34 @@
-export let data: Object[] = [
+export let menuItems: Object[] = [
     {
-        'text': 'آڈی',
+        text: 'File',
+        items: [
+            { text: 'Open' },
+            { text: 'Save' },
+            { text: 'Exit' }
+        ]
     },
     {
-        'text': 'زگوار',
+        text: 'Edit',
+        items: [
+            { text: 'Cut' },
+            { text: 'Copy' },
+            { text: 'Paste' }
+        ]
     },
     {
-        'text': 'مرسڈیز',
+        text: 'View',
+        items: [
+            { text: 'Toolbar' },
+            { text: 'Sidebar' }
+        ]
     },
     {
-        'text': 'متسوبشی',
+        text: 'Tools',
+        items: [
+            { text: 'Spelling & Grammar' },
+            { text: 'Customize' },
+            { text: 'Options' }
+        ]
     },
-    {
-        'text': 'ہنڈائی',
-    },
-    {
-        'text': 'تاٹا',
-    },
-    {
-        'text': 'سوزوکی',
-    },
-    {
-        'text': 'فورڈ',
-    },
-    {
-        'text': 'ہونڈا',
-    },
-    {
-        'text': 'وولوو',
-    },
+    { text: 'Help' }
 ];
