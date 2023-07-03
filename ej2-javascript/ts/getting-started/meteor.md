@@ -13,11 +13,16 @@ domainurl: ##DomainURL##
 
 This article provides a step-by-step introduction to configure Syncfusion JavaScript (Essential JS 2) library and build it in the Meteor framework.
 
+## What is Meteor?
+
+[Meteor](https://www.meteor.com/) is a full-stack JavaScript framework for building web and mobile applications in a single codebase, with built-in real-time communication and database synchronization capabilities. It is designed to simplify the development process and increase productivity.
+
 ## Prerequisites
 
 * [Node.js](https://nodejs.org/en/)
-* [chocolatey](https://chocolatey.org/install)
 * [Visual Studio Code](https://code.visualstudio.com/)
+
+> Meteor supports Node.js versions from >= 10 and <= 14. So ensure that the mentioned node version installed on your system.
 
 ## Setup development environment
 
@@ -71,48 +76,30 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
  ```
     <head>
         <title>ej2-meteor</title>
-
-        ....
-        ....
     </head>
 
     <body>
-        ....
-        ....
-
         <h2>Essential JS 2 Calendar</h2>
         <!--HTML element which is going to render as Essential JS 2 Calendar control-->
         <div id="element"></div>
     </body>
-
-    ....
-    ....
 ```
 
-3.Then, import the Syncfusion JavaScript styles, and render the Calender control inside the `Meteor.startup` method in `~/src/client/main.js` file.
+3.Then, import the Syncfusion JavaScript styles, and render the Calender control inside the `Meteor.startup` method in `./client/main.jsx` file.
 
-```js
-    ....
-    ....
-
-    import './main.html';
+```jsx
+   import { Meteor } from 'meteor/meteor';
 
     // import Syncfusion Essential JS 2 styles from node_modules
-    import '../node_modules/@syncfusion/ej2/material.css';
+    import '../node_modules/@syncfusion/ej2/bootstrap5.css';
 
     import { Calendar } from '@syncfusion/ej2-calendars';
 
     Meteor.startup(() => {
-        // initialize calendar control
         let calendarObject = new Calendar();
-
         // render initialized calendar
         calendarObject.appendTo('#element');
     });
-
-    ....
-    ....
-
 ```
 
 4.Finally, run the following command line to run the Meteor application.
