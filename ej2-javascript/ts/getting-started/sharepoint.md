@@ -48,7 +48,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 3. This command will ask you the following questions, and you can give corresponding answers:
 
-    1. Accept the default **ej-2-sharepoint** as your solution name, and then press the <kbd>Enter</kbd> key.
+    1. Enter the project name **ej2-sharepoint** as your solution name, and then press the <kbd>Enter</kbd> key.
     2. Which type of client-side component to create? Choose **WebPart** and press the <kbd>Enter</kbd> key.
     3. What is your Web part name? Give any name for your web part. For example: **ButtonComponent** and press the <kbd>Enter</kbd> key.
     4. Which template would you like to use? Choose **No framework** using the arrow keys, and then press the <kbd>Enter</kbd> key.
