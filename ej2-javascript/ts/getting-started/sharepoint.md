@@ -13,6 +13,10 @@ domainurl: ##DomainURL##
 
 This article provides a step-by-step introduction to configure Syncfusion JavaScript (Essential JS 2) library and build a simple SharePoint framework application in Visual Studio Code.
 
+## What is SharePoint?
+
+[SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) Framework is a development model used to create custom web parts and extensions for SharePoint Online and SharePoint on-premises. It is based on modern web technologies such as TypeScript, React, and Node.js.
+
 ## Prerequisites
 
 * [Node.js](https://nodejs.org/en/)
@@ -36,29 +40,41 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
     > The Yeoman SharePoint web part generator [`@microsoft/generator-sharepoint`](https://www.npmjs.com/package/@microsoft/generator-sharepoint) helps to create a SharePoint client-side project using [`Yeoman`](http://yeoman.io/) tool.
 
-2.Then, create a new client-side web part by running the Yeoman SharePoint Generator.
+2. Then, create the SharePoint project using the following Yeoman command.
 
  ```
     yo @microsoft/sharepoint
  ```
 
-3.Set up the following options when the above command is prompted.
+3. This command will ask you the following questions, and you can give corresponding answers:
 
     1. Accept the default **ej-2-sharepoint** as your solution name, and then press the <kbd>Enter</kbd> key.
-    2. Choose **SharePoint Online only (latest)**, and press the <kbd>Enter</kbd> key.
-    3. Choose **Use the current folder** to place the files in current location, and press the <kbd>Enter</kbd> key.
-    4. Type **N** to require the extension to be installed on each site explicitly when it is being used.
-    5. Choose **WebPart** as the client-side component type to be created.
+    2. Which type of client-side component to create? Choose **WebPart** and press the <kbd>Enter</kbd> key.
+    3. What is your Web part name? Give any name for your web part. For example: **ButtonComponent** and press the <kbd>Enter</kbd> key.
+    4. Which template would you like to use? Choose **No framework** using the arrow keys, and then press the <kbd>Enter</kbd> key.
 
-    Next, it will ask the specific information about the web part.
+    Refer to the following image:  
 
-    1. Change the **ButtonComponent** as your web part name, and then press the <kbd>Enter</kbd> key.
-    2. Accept the default **ButtonComponent description** as your web part description, and then press the <kbd>Enter</kbd> key.
-    3. Accept the default **No javascript framework** as the framework, and then press the <kbd>Enter</kbd> key.
+    ![ej2 spfx setup](images/sharepoint-setup.png)
 
-![ej2 spfx setup](images/sharepoint-setup.png)
+4. After configuring the above setup, the Yeoman generator will create the SharePoint client-side web part under `ej2-sharepoint` folder and install the required default dependencies.
 
-4.After configuring the above setup, the Yeoman generator will create the SharePoint client-side web part under `ej2-sharepoint` folder and install the required default dependencies.
+## Manual configurations in the SharePoint project
+
+Next, do the following two manual configurations in the created SharePoint project.
+
+1. **Trust SSL certificate to launch local webserver that uses HTTPS:** Create an [SSL certificate](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment#trusting-the-self-signed-developer-certificate) and configure the development environment to trust the certificate by simply executing the following command.
+
+    ```sh
+    gulp trust-dev-cert
+    ```
+    
+2. **Update the project’s hosted workbench URL:** The default URL for the hosted workbench in a new project always points to an invalid URL. Change the URL to the URL of your SharePoint tenant site:
+
+    1. Locate and open the file `./config/serve.json` in your project.
+    2. Then, locate the `initialPage` property in it. Change the URL to your SharePoint tenant site page’s URL. For example: https://yourtenant.SharePoint.com/_layouts/15/workbench.aspx. Refer to the following image: 
+
+   ![ej2 spfx serve url setup](images/sharepoint-serve-url-setup.png) 
 
 ## Configure Syncfusion JavaScript UI control in application
 
@@ -70,7 +86,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 2.Open the SharePoint application in Visual Studio Code, and add the Syncfusion JavaScript Button control script and styles in the `~/src/webparts/buttonComponent/ButtonComponentWebPart.ts` file.
 
-    1. Import the Button source and add Syncfusion JavaScript style reference at the top of the file.
+    1. Add the Syncfusion JavaScript Button component stylesheet reference and import the Button module at the top of the GanttChartWebPart.ts file.
     2. Add the HTML button element in `this.domElement.innerHTML`, and initialize the Syncfusion JavaScript Button in the `render()` method of `ButtonComponentWebPart` class.
 
  ```ts
