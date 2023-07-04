@@ -101,25 +101,26 @@ Syncfusion hosts every Syncfusion JavaScript control as a separate package on th
 Refer to a single CDN link that contains all Syncfusion JavaScript control styles as follows:
 
 ```
-https://cdn.syncfusion.com/ej2/<theme_name>.css
+https://cdn.syncfusion.com/ej2/22.1.34/<theme_name>.css
 ```
+
 
 | Theme Name | CDN Reference |
 |--- | --- |
-| Fluent | [https://cdn.syncfusion.com/ej2/fluent.css](https://cdn.syncfusion.com/ej2/fluent.css) |
-| Fluent Dark | [https://cdn.syncfusion.com/ej2/fluent-dark.css](https://cdn.syncfusion.com/ej2/fluent-dark.css) |
-| Bootstrap 5 | [https://cdn.syncfusion.com/ej2/bootstrap5.css](https://cdn.syncfusion.com/ej2/bootstrap5.css) |
-| Bootstrap 5 Dark| [https://cdn.syncfusion.com/ej2/bootstrap5-dark.css](https://cdn.syncfusion.com/ej2/bootstrap5-dark.css) |
-| Bootstrap 4 | [https://cdn.syncfusion.com/ej2/bootstrap4.css](https://cdn.syncfusion.com/ej2/bootstrap4.css) |
-| Bootstrap 3 | [https://cdn.syncfusion.com/ej2/bootstrap.css](https://cdn.syncfusion.com/ej2/bootstrap.css) |
-| Bootstrap 3 Dark| [https://cdn.syncfusion.com/ej2/bootstrap-dark.css](https://cdn.syncfusion.com/ej2/bootstrap-dark.css) |
-| Google’s Material | [https://cdn.syncfusion.com/ej2/material.css](https://cdn.syncfusion.com/ej2/material.css) |
-| Google’s Material Dark | [https://cdn.syncfusion.com/ej2/material-dark.css](https://cdn.syncfusion.com/ej2/material-dark.css) |
-| Tailwind CSS | [https://cdn.syncfusion.com/ej2/tailwind.css](https://cdn.syncfusion.com/ej2/tailwind.css) |
-| Tailwind CSS Dark | [https://cdn.syncfusion.com/ej2/tailwind-dark.css](https://cdn.syncfusion.com/ej2/tailwind-dark.css) |
-| Microsoft Office Fabric  | [https://cdn.syncfusion.com/ej2/fabric.css](https://cdn.syncfusion.com/ej2/fabric.css) |
-| Microsoft Office Fabric Dark | [https://cdn.syncfusion.com/ej2/fabric-dark.css](https://cdn.syncfusion.com/ej2/fabric-dark.css) |
-| High Contrast  | [https://cdn.syncfusion.com/ej2/highcontrast.css](https://cdn.syncfusion.com/ej2/highcontrast.css) |
+| Fluent | [https://cdn.syncfusion.com/ej2/22.1.34/fluent.css](https://cdn.syncfusion.com/ej2/22.1.34/fluent.css) |
+| Fluent Dark | [https://cdn.syncfusion.com/ej2/22.1.34/fluent-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/fluent-dark.css) |
+| Bootstrap 5 | [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5.css) |
+| Bootstrap 5 Dark| [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5-dark.css) |
+| Bootstrap 4 | [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap4.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap4.css) |
+| Bootstrap 3 | [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap.css) |
+| Bootstrap 3 Dark| [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap-dark.css) |
+| Google’s Material | [https://cdn.syncfusion.com/ej2/22.1.34/material.css](https://cdn.syncfusion.com/ej2/22.1.34/material.css) |
+| Google’s Material Dark | [https://cdn.syncfusion.com/ej2/22.1.34/material-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/material-dark.css) |
+| Tailwind CSS | [https://cdn.syncfusion.com/ej2/22.1.34/tailwind.css](https://cdn.syncfusion.com/ej2/22.1.34/tailwind.css) |
+| Tailwind CSS Dark | [https://cdn.syncfusion.com/ej2/22.1.34/tailwind-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/tailwind-dark.css) |
+| Microsoft Office Fabric  | [https://cdn.syncfusion.com/ej2/22.1.34/fabric.css](https://cdn.syncfusion.com/ej2/22.1.34/fabric.css) |
+| Microsoft Office Fabric Dark | [https://cdn.syncfusion.com/ej2/22.1.34/fabric-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/fabric-dark.css) |
+| High Contrast  | [https://cdn.syncfusion.com/ej2/22.1.34/highcontrast.css](https://cdn.syncfusion.com/ej2/22.1.34/highcontrast.css) |
 
 ### Individual control theme CDN reference
 
@@ -127,21 +128,21 @@ The primary goal of individual CDN control is to optimize the loading time and m
 
 >Dependency style:
 >
->`https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/styles/material.css`
+>`https://cdn.syncfusion.com/ej2/22.1.34/{DEPENDENCY_PACKAGE_NAME}/styles/material.css`
 >
 >Control style:
 >
->`https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/styles/material.css`
+>`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE_NAME}/styles/material.css`
 
 **Example:**
 
 >Button's control style:
 >
->[https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css)
+>[https://cdn.syncfusion.com/ej2/22.1.34/ej2-buttons/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-buttons/styles/material.css)
 >
 >Button's dependency style:
 >
->[https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css)
+>[https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css)
 
 ## Change theme dynamically
 
@@ -158,7 +159,7 @@ In the application, Syncfusion themes can be changed dynamically by changing the
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Syncfusion JavaScript Grid control" />
     <!-- Syncfusion JavaScript controls styles -->
-    <link id="css-link" href="https://cdn.syncfusion.com/ej2/bootstrap5.css" rel="stylesheet" />
+    <link id="css-link" href="https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5.css" rel="stylesheet" />
     ---
 </head>
 
@@ -192,7 +193,7 @@ let dropDownListObject: DropDownList = new DropDownList({
        let themeName = args.value as string;
        document.getElementsByTagName('body')[0].style.display = 'none';
        let styleLink: any = document.getElementById('css-link');
-       styleLink.href = 'https://cdn.syncfusion.com/ej2/20.4.38/' + themeName + '.css';
+       styleLink.href = 'https://cdn.syncfusion.com/ej2/22.1.34/' + themeName + '.css';
        setTimeout(function () { document.getElementsByTagName('body')[0].style.display = 'block'; }, 250);
     }
 });
