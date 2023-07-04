@@ -114,7 +114,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
             ....
             ....
             <!-- Essential JS 2 styles -->
-            <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
+            <link href="https://cdn.syncfusion.com/ej2/22.1.34/material.css" rel="stylesheet">
         </head>
 
         <body>
