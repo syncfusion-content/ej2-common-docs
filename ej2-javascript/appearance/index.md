@@ -18,3 +18,4 @@ The Syncfusion JavaScript library styles are developed under the SCSS environmen
 * [Theming](./theme)
 * [Icons Library](./icons)
 * [Theme Studio](./theme-studio)
+* [Material3 Theme](./material3)
