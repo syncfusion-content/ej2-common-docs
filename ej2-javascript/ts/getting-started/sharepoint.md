@@ -26,25 +26,37 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Create a new directory `ej2-sharepoint`, open the command prompt from that directory, and install the required SharePoint client-side development tools with global flag.
 
-    on Windows:
+on Windows:
 
- ```
-    npm install -g yo gulp @microsoft/generator-sharepoint
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
 
-    on OSX / LINUX
+npm install -g yo gulp @microsoft/generator-sharepoint
 
- ```
-    sudo npm install -g yo gulp @microsoft/generator-sharepoint
- ```
+{% endhighlight %}
+{% endtabs %}
+
+on OSX / LINUX:
+
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+sudo npm install -g yo gulp @microsoft/generator-sharepoint
+
+{% endhighlight %}
+{% endtabs %}
 
     > The Yeoman SharePoint web part generator [`@microsoft/generator-sharepoint`](https://www.npmjs.com/package/@microsoft/generator-sharepoint) helps to create a SharePoint client-side project using [`Yeoman`](http://yeoman.io/) tool.
 
 2. Then, create the SharePoint project using the following Yeoman command.
 
- ```
-    yo @microsoft/sharepoint
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+yo @microsoft/sharepoint
+
+{% endhighlight %}
+{% endtabs %}
 
 3. This command will ask you the following questions, and you can give corresponding answers:
 
@@ -65,9 +77,13 @@ Next, do the following two manual configurations in the created SharePoint proje
 
 1. **Trust SSL certificate to launch local webserver that uses HTTPS:** Create an [SSL certificate](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/set-up-your-development-environment#trusting-the-self-signed-developer-certificate) and configure the development environment to trust the certificate by simply executing the following command.
 
-    ```sh
-    gulp trust-dev-cert
-    ```
+{% tabs %}
+{% highlight sh tabtitle="CMD" %}
+
+gulp trust-dev-cert
+
+{% endhighlight %}
+{% endtabs %}
     
 2. **Update the project’s hosted workbench URL:** The default URL for the hosted workbench in a new project always points to an invalid URL. Change the URL to the URL of your SharePoint tenant site:
 
@@ -80,60 +96,70 @@ Next, do the following two manual configurations in the created SharePoint proje
 
 1.Install the [`@syncfusion/ej2`](https://www.npmjs.com/package/@syncfusion/ej2) npm package in the application using the following command line.
 
- ```
-    npm install @syncfusion/ej2 --save
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+npm install @syncfusion/ej2 --save
+
+{% endhighlight %}
+{% endtabs %}
 
 2.Open the SharePoint application in Visual Studio Code, and add the Syncfusion JavaScript Button control script and styles in the `~/src/webparts/buttonComponent/ButtonComponentWebPart.ts` file.
 
-    1. Add the Syncfusion JavaScript Button component stylesheet reference and import the Button module at the top of the GanttChartWebPart.ts file.
+    1. Add the Syncfusion JavaScript Button component stylesheet reference and import the Button module at the top of the ButtonComponentWebPart.ts file.
     2. Add the HTML button element in `this.domElement.innerHTML`, and initialize the Syncfusion JavaScript Button in the `render()` method of `ButtonComponentWebPart` class.
 
- ```ts
-    ....
-    ....
+{% tabs %}
+{% highlight ts tabtitle="~/src/webparts/buttonComponent/ButtonComponentWebPart.ts" %}
+....
+....
 
-    import styles from './ButtonComponentWebPart.module.scss';
-    import * as strings from 'ButtonComponentWebPartStrings';
+import styles from './ButtonComponentWebPart.module.scss';
+import * as strings from 'ButtonComponentWebPartStrings';
 
-    // import Essential JS 2 Button
-    import { Button } from '@syncfusion/ej2-buttons';
+// import Essential JS 2 Button
+import { Button } from '@syncfusion/ej2-buttons';
 
-    // add Syncfusion Essential JS 2 style reference from node_modules
-    require('../../../node_modules/@syncfusion/ej2/fabric.css');
+// add Syncfusion Essential JS 2 style reference from node_modules
+require('../../../node_modules/@syncfusion/ej2/fabric.css');
+....
+....
 
-    ....
-    ....
+export default class ButtonComponentWebPart extends BaseClientSideWebPart<IButtonComponentWebPartProps> {
 
-    export default class ButtonComponentWebPart extends BaseClientSideWebPart<IButtonComponentWebPartProps> {
+    public render(): void {
+    this.domElement.innerHTML = `
+        <div class="${ styles.buttonComponent }">
+            ....
+            ....
 
-        public render(): void {
-        this.domElement.innerHTML = `
-            <div class="${ styles.buttonComponent }">
-                ....
-                ....
+            <!--HTML button element, which is going to render as Essential JS 2 Button-->
+            <button id="normalbtn">Essential JS 2 Button</button>
+        </div>`;
 
-                <!--HTML button element, which is going to render as Essential JS 2 Button-->
-                <button id="normalbtn">Essential JS 2 Button</button>
-            </div>`;
+        // initialize button control
+        let button: Button = new Button();
 
-            // initialize button control
-            let button: Button = new Button();
-
-            // render initialized button
-            button.appendTo('#normalbtn');
-        }
-
-        ....
-        ....
+        // render initialized button
+        button.appendTo('#normalbtn');
     }
- ```
+
+    ....
+    ....
+}
+
+{% endhighlight %}
+{% endtabs %}
 
 3.Run the application using the following command line, and the Syncfusion JavaScript Button control will be rendered in web browser.
 
- ```
-    gulp serve
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+gulp serve
+
+{% endhighlight %}
+{% endtabs %}
 
     Click the `Add a new web part in column one`.
 
