@@ -13,44 +13,66 @@ domainurl: ##DomainURL##
 
 This article provides a step-by-step introduction to configure Syncfusion JavaScript (Essential JS 2) library and build it in the Meteor framework.
 
+## What is Meteor?
+
+[Meteor](https://www.meteor.com/) is a full-stack JavaScript framework for building web and mobile applications in a single codebase, with built-in real-time communication and database synchronization capabilities. It is designed to simplify the development process and increase productivity.
+
 ## Prerequisites
 
 * [Node.js](https://nodejs.org/en/)
 * [chocolatey](https://chocolatey.org/install)
 * [Visual Studio Code](https://code.visualstudio.com/)
 
+> Meteor supports Node.js versions from >= 10 and <= 14. So ensure that the mentioned node version installed on your system.
+
 ## Setup development environment
 
 1.Open the command prompt from **administrator** mode, and install the `Meteor` using the following command line.
 
-    on Windows:
+on Windows:
 
- ```
-    choco install meteor
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
 
-    on OSX/LINUX:
+choco install meteor
 
- ```
-    curl https://install.meteor.com/ | sh
- ```
+{% endhighlight %}
+{% endtabs %}
+
+on OSX/LINUX:
+
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+curl https://install.meteor.com/ | sh
+
+{% endhighlight %}
+{% endtabs %}
 
     > Refer to [this documentation](https://www.meteor.com/install) for more information about installing `Meteor`.
 
 2.Run the following command line to create a new project under `ej2-meteor` folder after installing `Meteor`.
 
-  ```
-    meteor create ej2-meteor
-```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+meteor create ej2-meteor
+
+{% endhighlight %}
+{% endtabs %}
 
 ![ej2 meteor new project](images/meteor-new-app.png)
 
 3.Now, navigate to the created project location `ej2-meteor`, and install the required default dependencies from the command prompt.
 
- ```
-    cd ej2-meteor
-    meteor npm install
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+cd ej2-meteor
+meteor npm install
+
+{% endhighlight %}
+{% endtabs %}
 
 ![ej2 meteor npm install](images/meteor-npm-install.png)
 
@@ -58,9 +80,13 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Install the [`@syncfusion/ej2`](https://www.npmjs.com/package/@syncfusion/ej2) npm package in the application using the following command line.
 
-```
-    meteor npm install @syncfusion/ej2 --save
-```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+meteor npm install @syncfusion/ej2 --save
+
+{% endhighlight %}
+{% endtabs %}
 
 ![ej2 meteor npm ej2 install](images/meteor-ej2-install.png)
 
@@ -68,58 +94,52 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 2.Open the application in Visual Studio Code, and add the `<div>` element inside the `<body>` element in `~/client/main.html` file for rendering the Calender control.
 
- ```
-    <head>
-        <title>ej2-meteor</title>
+{% tabs %}
+{% highlight html tabtitle="~/client/main.html" %}
 
-        ....
-        ....
-    </head>
+<head>
+    <title>ej2-meteor</title>
+</head>
 
-    <body>
-        ....
-        ....
+<body>
+    <h2>Essential JS 2 Calendar</h2>
+    <!--HTML element which is going to render as Essential JS 2 Calendar control-->
+    <div id="element"></div>
+</body>
 
-        <h2>Essential JS 2 Calendar</h2>
-        <!--HTML element which is going to render as Essential JS 2 Calendar control-->
-        <div id="element"></div>
-    </body>
+{% endhighlight %}
+{% endtabs %}
 
-    ....
-    ....
-```
+3.Then, import the Syncfusion JavaScript styles, and render the Calender control inside the `Meteor.startup` method in `./client/main.jsx` file.
 
-3.Then, import the Syncfusion JavaScript styles, and render the Calender control inside the `Meteor.startup` method in `~/src/client/main.js` file.
+{% tabs %}
+{% highlight jsx tabtitle="./client/main.jsx" %}
 
-```js
-    ....
-    ....
+import { Meteor } from 'meteor/meteor';
 
-    import './main.html';
+// import Syncfusion Essential JS 2 styles from node_modules
+import '../node_modules/@syncfusion/ej2/bootstrap5.css';
 
-    // import Syncfusion Essential JS 2 styles from node_modules
-    import '../node_modules/@syncfusion/ej2/material.css';
+import { Calendar } from '@syncfusion/ej2-calendars';
 
-    import { Calendar } from '@syncfusion/ej2-calendars';
+Meteor.startup(() => {
+    let calendarObject = new Calendar();
+    // render initialized calendar
+    calendarObject.appendTo('#element');
+});
 
-    Meteor.startup(() => {
-        // initialize calendar control
-        let calendarObject = new Calendar();
-
-        // render initialized calendar
-        calendarObject.appendTo('#element');
-    });
-
-    ....
-    ....
-
-```
+{% endhighlight %}
+{% endtabs %}
 
 4.Finally, run the following command line to run the Meteor application.
 
- ```
-    meteor
- ```
+{% tabs %}
+{% highlight ts tabtitle="CMD" %}
+
+meteor
+
+{% endhighlight %}
+{% endtabs %}
 
     Open the localhost URL in the web brower.
 
