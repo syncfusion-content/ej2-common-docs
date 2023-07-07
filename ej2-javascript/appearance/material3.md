@@ -11,13 +11,13 @@ domainurl: ##DomainURL##
 
 # Material3 Theme
 
-Material 3 includes updated theming, components, and personalization features like dynamic color. It is designed to be cohesive with the new visual style and system UI on Android 12 and above. For more information refer this [link](https://m3.material.io/).
+Material 3 is an updated theme that encompasses enhanced theming, components, and personalization features, including dynamic color capabilities. It has been specifically designed to align seamlessly with the new visual style and system UI introduced in Android 12 and above. For more detailed information, please refer to the following link: [ Link to Material 3 Information](https://m3.material.io/).
 
 ## Syncfusion Material3 Theme
 
-We have added the material 3 theme light and dark variants to all Syncfusion EJ2 Controls. With the implementation of CSS variables in this theme, we've made it effortless to customize the Syncfusion control colors directly within the CSS format. This approach allows users to easily switch between light and dark color schemes, providing seamless adaptability to their preferences and application needs.
+We are pleased to announce that we have incorporated the Material 3 theme, featuring light and dark variants, into all Syncfusion EJ2 Controls. This theme implementation leverages CSS variables, allowing effortless customization of Syncfusion control colors directly within the CSS format. This approach facilitates the smooth transition between light and dark color schemes, providing users with a highly adaptable solution that caters to their preferences and application requirements.
 
-> Note: In Material3 theme, we have used CSS variables with rgb() values for our color variables.Please note that utilizing hex values in this case will result in improper functionality.
+> Note: Please be aware that in the Material3 theme, we utilize CSS variables with rgb() values for our color variables. Using hex values in this context may lead to improper functionality.
 
 | Color Variants | Correct | Incorrect |
 |----|----|----|
@@ -28,11 +28,11 @@ We have added the material 3 theme light and dark variants to all Syncfusion EJ2
 
 ## What are Css Variables?
 
-CSS variables, also known as custom properties, are a powerful feature in CSS that enables you to define reusable values and utilize them throughout your stylesheets. They are prefixed with "--" and can be used in any property value within a CSS rule. To insert the value of a CSS variable, you can use the var() function. CSS variables can access the Document Object Model (DOM), allowing you to create variables with either local or global scope. For more information, please refer to this [link](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).
+CSS variables, also known as custom properties, are a powerful feature in CSS that allows you to define reusable values and apply them throughout your stylesheets. Prefixed with "--," CSS variables can be utilized in any property value within a CSS rule. To retrieve the value of a CSS variable, the var() function is used. CSS variables can access the Document Object Model (DOM), enabling the creation of variables with either local or global scope. For further details, please consult the following link: [Link to CSS Variables Information](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties).
 
-### How syncfusion theming utilize css variables?
+### How does Syncfusion Theming utilize CSS Variables?
 
-We have integrated CSS variable support for our Material 3 theme. In this theme, we have incorporated CSS variables with rgb() values for our color variables.
+We have integrated CSS variable support into our Material 3 theme. In this theme, CSS variables with rgb() values are employed for our color variables.
 
 ```css
 :root {
@@ -57,7 +57,7 @@ We have integrated CSS variable support for our Material 3 theme. In this theme,
 
 ### Exploring Color Customization
 
-Using these CSS variables, you can easily customize the color variables. For example, to customize the primary color variable in this theme, you can simply change its value in the root values.
+Through the utilization of these CSS variables, customization of the color variables becomes remarkably straightforward. For example, to customize the primary color variable in this theme, simply modify its value in the root values.
 
 **Default primary value**
 
@@ -71,7 +71,7 @@ With this CSS variable support, you can effortlessly customize the color variabl
 
 ## Dark mode support
 
-We have unified the light theme and dark theme values into a single definition file. This allows for easy switching between light and dark modes for our controls.
+We have amalgamated the light theme and dark theme values into a single definition file, enabling seamless switching between light and dark modes for our controls.
 
 ![dark mode](images/material3.gif)
 
@@ -98,12 +98,12 @@ We have unified the light theme and dark theme values into a single definition f
 
 ### How to switch to dark mode
 
-With this CSS variable support, switching between light and dark theme modes is a breeze. To switch to dark mode, simply add the 'e-dark-mode' class to the body section of your application. Once you've added this class, the theme will switch to dark mode. Please refer to the image below for an example.
+Thanks to the CSS variable support, transitioning between light and dark theme modes has become effortless. To switch to dark mode, simply add the 'e-dark-mode' class to the body section of your application. Upon adding this class, the theme will seamlessly switch to dark mode. Please refer to the example image below for guidance.
 
 ![dark mode](images/material3-dark.png)
 
 ## ThemeStudio application
 
-We have also integrated the Material 3 theme into our ThemeStudio application. So, you can utilize this application for your customization needs as well.
+We have also integrated the Material 3 theme into our ThemeStudio application, providing you with a comprehensive solution for your customization needs.
 
-https://ej2.syncfusion.com/themestudio/?theme=material3
+Access the Syncfusion ThemeStudio application, featuring the Material 3 theme, via the following link: [Link to Syncfusion ThemeStudio with Material 3 Theme](https://ej2.syncfusion.com/themestudio/?theme=material3)
