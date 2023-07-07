@@ -17,7 +17,7 @@ Material 3 is an updated theme that encompasses enhanced theming, components, an
 
 Material 3 theme has been incorporated into all Syncfusion EJ2 Controls. The theme includes light and dark variants and utilizes CSS variables for easy customization of control colors in CSS format. This implementation enables seamless switching between light and dark color schemes, offering users a flexible solution to suit their preferences and application needs.
 
-> Note: Please be aware that in the Material3 theme, we utilize CSS variables with rgb() values for our color variables. Using hex values in this context may lead to improper functionality.
+> Note: It is important to note that the Material3 theme incorporates CSS variables with rgb() values for color variables. It is advisable to avoid using hex values in this context, as it may result in improper functionality.
 
 | Color Variants | Correct | Incorrect |
 |----|----|----|
@@ -104,6 +104,6 @@ Thanks to the CSS variable support, transitioning between light and dark theme m
 
 ## ThemeStudio application
 
-We have also integrated the Material 3 theme into our ThemeStudio application, providing you with a comprehensive solution for your customization needs.
+The Material 3 theme has been seamlessly integrated into the ThemeStudio application, offering a comprehensive solution to meet your customization requirements.
 
 Access the Syncfusion ThemeStudio application, featuring the Material 3 theme, via the following link: [Link to Syncfusion ThemeStudio with Material 3 Theme](https://ej2.syncfusion.com/themestudio/?theme=material3)
