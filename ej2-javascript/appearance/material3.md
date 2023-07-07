@@ -32,7 +32,7 @@ CSS variables, also known as custom properties, are a powerful feature in CSS th
 
 ### How does Syncfusion Theming utilize CSS Variables?
 
-We have integrated CSS variable support into our Material 3 theme. In this theme, CSS variables with rgb() values are employed for our color variables.
+The Material 3 theme in our system incorporates CSS variable support, utilizing CSS variables with rgb() values for color customization.
 
 ```css
 :root {
@@ -71,7 +71,7 @@ With this CSS variable support, you can effortlessly customize the color variabl
 
 ## Dark mode support
 
-We have amalgamated the light theme and dark theme values into a single definition file, enabling seamless switching between light and dark modes for our controls.
+The controls in our system now seamlessly transition between light and dark modes without any noticeable delay, achieved by consolidating the light theme and dark theme configurations into a single definition file.
 
 ![dark mode](images/material3.gif)
 
