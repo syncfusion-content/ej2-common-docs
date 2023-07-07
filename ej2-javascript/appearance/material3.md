@@ -61,11 +61,11 @@ Through the utilization of these CSS variables, customization of the color varia
 
 **Default primary value**
 
-![default primary value](images/material3-default.png)
+![default primary value](images/material3-default.PNG)
 
 **Customized primary value**
 
-![customized primary value](images/material3-customize.png)
+![customized primary value](images/material3-customize.PNG)
 
 With this CSS variable support, you can effortlessly customize the color variable values for our EJ2 controls.
 
@@ -100,7 +100,7 @@ The controls in our system now seamlessly transition between light and dark mode
 
 Thanks to the CSS variable support, transitioning between light and dark theme modes has become effortless. To switch to dark mode, simply add the 'e-dark-mode' class to the body section of your application. Upon adding this class, the theme will seamlessly switch to dark mode. Please refer to the example image below for guidance.
 
-![dark mode](images/material3-dark.png)
+![dark mode](images/material3-dark.PNG)
 
 ## ThemeStudio application
 
