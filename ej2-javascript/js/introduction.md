@@ -73,41 +73,43 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/treegrid/getting-started/">TreeGrid</a></div>
          <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/spreadsheet/getting-started/">Spreadsheet</a></div>
         <div><p class="controlcategory">FILE VIEWERS & EDITORS</p></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/in-place-editor/getting-started/">In-place Editor</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/in-place-editor/es5-getting-started/">In-place Editor</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/rich-text-editor/getting-started/">RichTextEditor</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/pdfviewer/getting-started/">PDF Viewer</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/document-editor/getting-started/">Word Processor</a></div>
         <div><p class="controlcategory">LAYOUT</p></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/dialog/getting-started/">Dialog</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/dialog/es5-getting-started/">Dialog</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/listview/getting-started/">ListView</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/predefined-dialogs/es5-getting-started">Predefined Dialogs</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/tooltip/getting-started/">Tooltip</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/splitter/getting-started/">Splitter</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/dashboard-layout/getting-started/">Dashboard</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/splitter/es5-getting-started/">Splitter</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/dashboard-layout/es5-getting-started/">Dashboard</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/card/getting-started/">Card</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/avatar/getting-started/">Avatar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/avatar/es5-getting-started/">Avatar</a></div>
     </td>
     <td>
         <div><p class="controlcategory">DATA VISUALIZATION</p></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/chart/getting-started/">Charts</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/stock-chart/getting-started/">Stock Chart</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/circular-gauge/getting-started/">Circular Gauge</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/linear-gauge/getting-started/">Linear Gauge</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/chart/es5-getting-started/">Charts</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/accumulation-chart/es5-getting-started">Accumulation Chart</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/stock-chart/es5-getting-started/">Stock Chart</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/circular-gauge/es5-getting-started/">Circular Gauge</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/linear-gauge/es5-getting-started/">Linear Gauge</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/diagram/getting-started/">Diagram </a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/heatmap-chart/getting-started/">HeatMap Chart</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/maps/getting-started/">Map</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/maps/es5-getting-started/">Map</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/range-navigator/getting-started/">Range Selector</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/smithchart/getting-started/">Smith Chart</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/sparkline/getting-started/">Sparkline Charts</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/sparkline/es5-getting-started/">Sparkline Charts</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/barcode/getting-started/">Barcode</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/treemap/getting-started/">TreeMap</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/bullet-chart/getting-started/">Bullet Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/kanban/getting-started/">Kanban</a></div>
         <div><p class="controlcategory">BUTTONS</p></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/button/getting-started/">Button</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/button/es5-getting-started/">Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/button-group/getting-started/">ButtonGroup</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/drop-down-button/getting-started/">Dropdown Menu</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/progress-button/getting-started/">Progress Button</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/split-button/getting-started/">SplitButton</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/drop-down-button/es5-getting-started/">Dropdown Menu</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/progress-button/es5-getting-started/">Progress Button</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/split-button/es5-getting-started/">SplitButton</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/chips/getting-started/">Chips</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/floating-action-button/es5-getting-started/">Floating Action Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/speed-dial/es5-getting-started/">Speed Dial</a></div>
@@ -115,27 +117,27 @@ letter-spacing: 0.7px;
     <td>
         <div><p class="controlcategory">CALENDARS</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/schedule/getting-started/">Scheduler</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/gantt/getting-started/">Gantt Chart</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/calendar/getting-started/">Calendar</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/datepicker/getting-started/">DatePicker</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/daterangepicker/getting-started/">DateRangePicker</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/datetimepicker/getting-started/">DateTime Picker</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/timepicker/getting-started/">TimePicker</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/gantt/es5-getting-started/">Gantt Chart</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/calendar/es5-getting-started/">Calendar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/datepicker/es5-getting-started/">DatePicker</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/daterangepicker/es5-getting-started/">DateRangePicker</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/datetimepicker/es5-getting-started/">DateTime Picker</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/timepicker/es5-getting-started/">TimePicker</a></div>
         <div><p class="controlcategory">INPUTS</p></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/textbox/getting-started/">TextBox</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/maskedtextbox/getting-started/">Input Mask</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/numerictextbox/getting-started/">Numeric TextBox</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/radio-button/getting-started/">RadioButton</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/check-box/getting-started/">CheckBox</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/color-picker/getting-started/">Color Picker</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/uploader/getting-started/">File Upload</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/textbox/es5-getting-started/">TextBox</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/maskedtextbox/es5-getting-started/">Input Mask</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/numerictextbox/es5-getting-started/">Numeric TextBox</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/radio-button/es5-getting-started/">RadioButton</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/check-box/es5-getting-started/">CheckBox</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/color-picker/es5-getting-started/">Color Picker</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/uploader/es5-getting-started/">File Upload</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/range-slider/getting-started/">Range Slider</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/switch/getting-started/">Toggle Switch Button</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/signature/getting-started/">Signature</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/switch/es5-getting-started/">Toggle Switch Button</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/signature/es5-getting-started/">Signature</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/rating/es5-getting-started/">Rating</a></div>
         <div><p class="controlcategory">FORMS</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/form-validator/validation-rules/">Form Validator</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/query-builder/getting-started/">Query Builder</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/query-builder/es5-getting-started/">Query Builder</a></div>
     </td>
     <td>
         <div><p class="controlcategory">DROPDOWNS</p></div>
@@ -144,27 +146,27 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/combo-box/es5-getting-started/">ComboBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/drop-down-list/es5-getting-started/">Dropdown List</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/multi-select/es5-getting-started/">Multiselect DropDown</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/drop-down-tree/getting-started/">DropDown Tree</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/drop-down-tree/es5-getting-started/">DropDown Tree</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/mention/es5-getting-started/">Mention</a></div>
         <div><p class="controlcategory">NAVIGATION</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/accordion/getting-started/">Accordion</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/carousel/es5-getting-started/">Carousel</a></div>
-         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/carousel/getting-started/">Carousel</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/context-menu/getting-started/">Context Menu</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/menu/getting-started/">Menu Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/context-menu/es5-getting-started/">Context Menu</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/menu/es5-getting-started/">Menu Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/ribbon/es5-getting-started">Ribbon</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/sidebar/getting-started/">Sidebar</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/tab/getting-started/">Tabs</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/toolbar/getting-started/">Toolbar</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/treeview/getting-started/">TreeView</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/file-manager/getting-started/">File Manager</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/breadcrumb/getting-started/">Breadcrumb</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/treeview/es5-getting-started/">TreeView</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/file-manager/es5-getting-started/">File Manager</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/breadcrumb/es5-getting-started/">Breadcrumb</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/pager/getting-started/">Pager</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/appbar/es5-getting-started/">AppBar</a></div>
         <div><p class="controlcategory">NOTIFICATION</p></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/toast/getting-started/">Toast</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/progress-bar/getting-started/">Progress Bar</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/spinner/getting-started/">Spinner</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/badge/getting-started/">Badge</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/toast/es5-getting-started/">Toast</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/progress-bar/es5-getting-started/">Progress Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/spinner/es5-getting-started/">Spinner</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/badge/es5-getting-started/">Badge</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/skeleton/es5-getting-started/">Skeleton</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/message/es5-getting-started/">Message</a></div>
     </td>

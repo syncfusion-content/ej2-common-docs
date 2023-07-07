@@ -22,17 +22,17 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Open the command prompt, and run the following command line to install the `ionic` with global flag.
 
-    on Windows:
+on Windows:
 
  ```
     npm install -g ionic cordova
  ```
 
-    on OSX / LINUX:
+on OSX / LINUX:
 
  ```
     sudo npm install -g ionic cordova
-```
+ ```
 
 2.Then, run the following command line to create a new Ionic blank template application. The new application will be placed under `ej2-ionic` folder after the command complete its process, and it will install the default `npm` dependent packages when creating the application.
 
@@ -114,7 +114,7 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
             ....
             ....
             <!-- Essential JS 2 styles -->
-            <link href="https://cdn.syncfusion.com/ej2/22.1.34/material.css" rel="stylesheet">
+            <link href="https://cdn.syncfusion.com/ej2/material.css" rel="stylesheet">
         </head>
 
         <body>
