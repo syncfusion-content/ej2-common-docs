@@ -23,13 +23,13 @@ This article provides a step-by-step introduction to configure Syncfusion JavaSc
 
 1.Open the command prompt from **administrator** mode, and install the `Meteor` using the following command line.
 
-    on Windows:
+on Windows:
 
  ```
     choco install meteor
  ```
 
-    on OSX/LINUX:
+on OSX/LINUX:
 
  ```
     curl https://install.meteor.com/ | sh
