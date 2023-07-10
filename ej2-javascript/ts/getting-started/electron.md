@@ -70,7 +70,7 @@ Syncfusion JavaScript controls comes with [built-in](https://ej2.syncfusion.com/
 
 Open the application in Visual Studio Code and import the `Material` theme for the Grid control and its dependencies to the `~/style.css` file as follows.
 
-```
+```css
   @import "node_modules/@syncfusion/ej2-base/styles/material.css";
   @import "node_modules/@syncfusion/ej2-buttons/styles/material.css";
   @import "node_modules/@syncfusion/ej2-calendars/styles/material.css";

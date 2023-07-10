@@ -103,21 +103,21 @@ To work with the Essential JS 1 and the Essential JS 2 controls compatibility in
 
 4. Initialize the Essential JS 1 and Essential JS 2 Button control inside the `<script>` element in `~/quickstart/index.html` file.
 
-    ```
-        <script>
-            // Extend ej namespace with Syncfusion
-            $.extend(ej, Syncfusion);
+```html
+    <script>
+        // Extend ej namespace with Syncfusion
+        $.extend(ej, Syncfusion);
 
-            // Initialize Essential JS 2 JavaScript Button control
-            var button = new ej.buttons.Button({
-                isPrimary: true
-            });
-            button.appendTo('#btn2');
+        // Initialize Essential JS 2 JavaScript Button control
+        var button = new ej.buttons.Button({
+            isPrimary: true
+        });
+        button.appendTo('#btn2');
 
-            // Initialize Essential JS 1 JavaScript Button control
-            $("#btn1").ejButton();
-        </script>
-    ```
+        // Initialize Essential JS 1 JavaScript Button control
+        $("#btn1").ejButton();
+    </script>
+```
 
     > The `ej` namespace should be extend with `Syncfusion` before initializing the Essential JS 1 and Essential JS 2 controls.
 
