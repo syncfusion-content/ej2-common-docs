@@ -37,6 +37,6 @@ The following meta tag is included within the `<head>` tag and resolves the CSP 
 </head>
 ```
 
-> [View the JavaScript sample enabled with strict CSP in Github](https://github.com/SyncfusionExamples/ej2-javascript-csp/)
+> [View the JavaScript sample enabled with strict CSP in Github](https://github.com/SyncfusionExamples/ej2-javascript-csp-example)
 
 N> From the release 2023 Vol1 - 22.1 version, the Content Security Policy for Syncfusion controls has been enhanced by eliminating the usage of the `unsafe-eval` directive and implement a [function template](../template#function-template) approach for template properties.
