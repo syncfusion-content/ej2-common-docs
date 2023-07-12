@@ -15,7 +15,7 @@ Content Security Policy (CSP) is a security feature implemented by web browsers 
 
 When enabling strict [Content Security Policy (CSP)](https://csp.withgoogle.com/docs/strict-csp.html), some browser features are disabled by default. In order to use Syncfusion controls with strict CSP mode, it is necessary to include following directives in the CSP meta tag.
 
-* Syncfusion controls eliminate the need for the `unsafe-eval` directive in the meta tag. It is recommended to rewrite the inline string and external templates as [function template](../template#function-template) approach for Syncfusion controls template properties in the application. This approach ensures compliance with strict Content Security Policy (CSP) guidelines.
+* Syncfusion controls scripts no longer necessitate the use of the `unsafe-eval` directive in the meta tag. If users utilize string or external templates in their application, it is advisable to rewrite the inline string and external templates using the [function template](../template#function-template) approach for template properties within the application. This approach guarantees compliance with strict Content Security Policy (CSP) guidelines.
 
 N> If users prefer to continue using inline string and external templates, it is necessary to include the `unsafe-eval` directive in the CSP meta tag in order to bypass the CSP violation.
 
@@ -38,7 +38,5 @@ The following meta tag is included within the `<head>` tag and resolves the CSP 
 ```
 
 > [View the JavaScript sample enabled with strict CSP in Github](https://github.com/SyncfusionExamples/ej2-javascript-csp/)
-
-> [View the TypeScript sample enabled with strict CSP in Github](https://github.com/SyncfusionExamples/ej2-typescript-csp/)
 
 N> From the release 2023 Vol1 - 22.1 version, the Content Security Policy for Syncfusion controls has been enhanced by eliminating the usage of the `unsafe-eval` directive and implement a [function template](../template#function-template) approach for template properties.
