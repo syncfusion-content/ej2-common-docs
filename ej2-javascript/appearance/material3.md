@@ -71,7 +71,7 @@ With this CSS variable support, you can effortlessly customize the color variabl
 
 ## Dark mode support
 
-The controls in our system now seamlessly transition between light and dark modes without any noticeable delay. This achievement was made by consolidating the configurations of the light theme and dark theme into material3 light theme files. For further details, please refer to the following link: [Link to Dark Mode Information](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8).
+The controls in our system now seamlessly transition between light and dark modes without any noticeable delay. This achievement was made by consolidating the configurations of the light theme and dark theme into [material3 light theme](https://unpkg.com/browse/@syncfusion/ej2-base@22.1.34/styles/definition/_material3.scss) file. For further details, please refer to the following link: [Link to Dark Mode Information](https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8).
 
 ![dark mode](images/material3.gif)
 
