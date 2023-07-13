@@ -3,7 +3,7 @@ import { employeeData } from './datasource.ts';
 
 let grid: Grid = new Grid({
     dataSource: employeeData,
-    rowTemplate: '#customTemplate',
+    rowTemplate: '#rowtemplate',
     columns: [
         { headerText: 'Employee ID', width: 150, textAlign: 'Center', field: 'OrderID' },
         { headerText: 'Employee Details', width: 300, field: 'EmployeeID' }
