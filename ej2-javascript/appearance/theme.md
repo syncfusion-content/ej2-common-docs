@@ -106,6 +106,7 @@ Refer to a single CDN link that contains all Syncfusion JavaScript control style
 https://cdn.syncfusion.com/ej2/<version>/<theme_name>.css
 ```
 
+
 | Theme Name | CDN Reference |
 |--- | --- |
 | Material3 | [https://cdn.syncfusion.com/22.1.34/material3.css](https://cdn.syncfusion.com/22.1.34/material3.css) |
@@ -131,21 +132,21 @@ The primary goal of individual CDN control is to optimize the loading time and m
 
 >Dependency style:
 >
->`https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/styles/material.css`
+>`https://cdn.syncfusion.com/ej2/22.1.34/{DEPENDENCY_PACKAGE_NAME}/styles/material.css`
 >
 >Control style:
 >
->`https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/styles/material.css`
+>`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE_NAME}/styles/material.css`
 
 **Example:**
 
 >Button's control style:
 >
->[https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-buttons/styles/material.css)
+>[https://cdn.syncfusion.com/ej2/22.1.34/ej2-buttons/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-buttons/styles/material.css)
 >
 >Button's dependency style:
 >
->[https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css)
+>[https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css)
 
 ## Change theme dynamically
 
@@ -162,7 +163,7 @@ In the application, Syncfusion themes can be changed dynamically by changing the
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Syncfusion JavaScript Grid control" />
     <!-- Syncfusion JavaScript controls styles -->
-    <link id="css-link" href="https://cdn.syncfusion.com/ej2/bootstrap5.css" rel="stylesheet" />
+    <link id="css-link" href="https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5.css" rel="stylesheet" />
     ---
 </head>
 

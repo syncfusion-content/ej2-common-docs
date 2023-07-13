@@ -17,7 +17,7 @@ When enabling strict [Content Security Policy (CSP)](https://csp.withgoogle.com/
 
 * Syncfusion controls utilized the `string template` approach for template properties and relied on the `new()` and `eval()` functions for dynamic code evaluation. To overcome the CSP error, it is necessary to include `unsafe-eval` directive within the `script-src 'self'` directive of the CSP meta tag.
 
-> If users want to avoid the `unsafe-eval` directive in the meta tag, then rewrite the inline string and external templates as function templates for Syncfusion controls template properties in the application. This can be achieved by following the guidelines provided in the [function template](../template#function-template) section of the documentation. This approach ensures compliance with strict Content Security Policy (CSP) guidelines.
+N> If users want to avoid the `unsafe-eval` directive in the meta tag, then rewrite the inline string and external templates as function templates for Syncfusion controls template properties in the application. This can be achieved by following the guidelines provided in the [function template](../template#function-template) section of the documentation. This approach ensures compliance with strict Content Security Policy (CSP) guidelines.
 
 * Syncfusion controls uses **base64** as a font icon and it is not allowed in strict CSP enabled site. To overcome this, it’s necessary to add the [`font-src data:`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/font-src) directive in the meta tag.
 

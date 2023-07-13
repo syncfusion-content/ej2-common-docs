@@ -23,27 +23,27 @@ The latest minified versions of UMD (Universal Module Definition), Global (ES5) 
 
 > The un-versioned CDN links, which always maintain the latest version scripts are deprecated from 2022 Vol1 - 20.1 version. These links are available with `19.4` version scripts to avoid breaking in sites and apps that use un-versioned links.
 
-* **`https://cdn.syncfusion.com/ej2/{PACKAGE-NAME}/dist/{PACKAGE-NAME}.umd.min.js`**
-* **`https://cdn.syncfusion.com/ej2/{PACKAGE-NAME}/dist/global/{PACKAGE-NAME}.min.js`**
-* **`https://cdn.syncfusion.com/ej2/{PACKAGE-NAME}/styles/{THEME-NAME}.css`**
+* **`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE-NAME}/dist/{PACKAGE-NAME}.umd.min.js`**
+* **`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE-NAME}/dist/global/{PACKAGE-NAME}.min.js`**
+* **`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE-NAME}/styles/{THEME-NAME}.css`**
 
 For example,
 
-* [https://cdn.syncfusion.com/ej2/ej2-grids/dist/ej2-grids.umd.min.js](https://cdn.syncfusion.com/ej2/ej2-grids/dist/ej2-grids.umd.min.js)
-* [https://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js](https://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js)
-* [https://cdn.syncfusion.com/ej2/ej2-grids/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-grids/styles/material.css)
+* [https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/ej2-grids.umd.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/ej2-grids.umd.min.js)
+* [https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js)
+* [https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css)
 
 The Syncfusion npm package released version files are also available in the below CDN format.
 
-* **`https://cdn.syncfusion.com/ej2/{VERSION}/{PACKAGE-NAME}/dist/{PACKAGE-NAME}.umd.min.js`**
-* **`https://cdn.syncfusion.com/ej2/{VERSION}/{PACKAGE-NAME}/dist/global/{PACKAGE-NAME}.min.js`**
-* **`https://cdn.syncfusion.com/ej2/{VERSION}/{PACKAGE-NAME}/styles/{THEME-NAME}.css`**
+* **`https://cdn.syncfusion.com/ej2/22.1.34/{VERSION}/{PACKAGE-NAME}/dist/{PACKAGE-NAME}.umd.min.js`**
+* **`https://cdn.syncfusion.com/ej2/22.1.34/{VERSION}/{PACKAGE-NAME}/dist/global/{PACKAGE-NAME}.min.js`**
+* **`https://cdn.syncfusion.com/ej2/22.1.34/{VERSION}/{PACKAGE-NAME}/styles/{THEME-NAME}.css`**
 
 For example
 
-* [https://cdn.syncfusion.com/ej2/16.3.21/ej2-grids/dist/ej2-grids.umd.min.js](https://cdn.syncfusion.com/ej2/16.3.21/ej2-grids/dist/ej2-grids.umd.min.js)
-* [https://cdn.syncfusion.com/ej2/16.3.21/ej2-grids/dist/global/ej2-grids.min.js](https://cdn.syncfusion.com/ej2/16.3.21/ej2-grids/dist/global/ej2-grids.min.js)
-* [https://cdn.syncfusion.com/ej2/16.3.21/ej2-grids/styles/material.css](https://cdn.syncfusion.com/ej2/16.3.21/ej2-grids/styles/material.css)
+* [https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/ej2-grids.umd.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/ej2-grids.umd.min.js)
+* [https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js)
+* [https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css)
 
 W> The un-versioned CDN links which always maintains latest version scripts are deprecated from 2022 Vol1 - 20.1 version. These links are available with 19.4 version scripts to avoid breaking in sites and apps that uses un-versioned links.
 
