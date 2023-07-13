@@ -15,21 +15,34 @@ Content Security Policy (CSP) is a security feature implemented by web browsers 
 
 To enable strict [Content Security Policy (CSP)](https://csp.withgoogle.com/docs/strict-csp.html), some browser features are disabled by default. In order to use Syncfusion controls with strict CSP mode, it is essential to include following directives in the CSP meta tag.
 
-* Syncfusion controls uses **base64** as a font icon and it is not allowed in strict CSP enabled site. To overcome this, it is necessary to add the [`font-src data:`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/font-src) in the meta tag.
+* Syncfusion controls are rendered with calculated **inline styles** and **base64** font icons, which are blocked on a strict CSP-enabled site. To allow them, add the [`style-src 'self' 'unsafe-inline';`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/style-src) and [`font-src 'self' data:;`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/font-src) directives in the meta tag as follows.
 
-* For the built in themes and styles, we use the **inline styles** and [`Roboto’s external font`](https://fonts.googleapis.com/css?family=Roboto:400,500), which is also blocked. To allow them [`style-src 'self' unsafe-inline`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe_inline_script) must be included in the meta tag.
+{% tabs %}
+{% highlight razor tabtitle="HTML" %}
 
-The following meta tag is included within the `<head>` tag and resolves the CSP violation on the application's side when utilizing Syncfusion controls.
+<meta http-equiv="Content-Security-Policy" content="default-src 'self';
+    style-src 'self' 'unsafe-inline';
+    font-src 'self'  data:;" />
 
-```html
+{% endhighlight %}
+{% endtabs %}
+
+* Syncfusion **material** and **tailwind** built-in themes contain a reference to the [`Roboto’s external font`](https://fonts.googleapis.com/css?family=Roboto:400,500), which is also blocked. To allow them, add the [`external font`](https://fonts.googleapis.com/css?family=Roboto:400,500) reference to the [`style-src`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe_inline_script) and [`font-src`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/font-src) directives in the above meta tag.
+
+The resultant meta tag is included within the `<head>` tag and resolves the CSP violation on the application's side when utilizing Syncfusion controls.
+
+{% tabs %}
+{% highlight razor tabtitle="HTML" %}
+
 <head>
     ...
-    <meta http-equiv="Content-Security-Policy" content="default-src 'none';
-    script-src 'self';
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self';
     style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline';
-    font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/ data: cdn.syncfusion.com 'unsafe-inline';" />
+    font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/ data:;" />
 </head>
-```
+
+{% endhighlight %}
+{% endtabs %}
 
 > [View the JavaScript sample enabled with strict CSP in Github](https://github.com/SyncfusionExamples/ej2-javascript-csp-example)
 

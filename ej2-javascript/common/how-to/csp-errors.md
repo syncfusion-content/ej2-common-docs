@@ -21,14 +21,6 @@ In your application, utilizes string or external templates, it is advisable to r
 
 N> If users prefer to continue using inline string and external templates, it is necessary to include the `unsafe-eval` directive in the CSP meta tag in order to bypass the CSP violation.
 
-## Script tag loading
-
-In the strict CSP-enabled site, the script tag is blocked by default. To load the Syncfusion script files from the CDN, it is essential to add the [`script-src 'self' https://cdn.syncfusion.com/`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src) directive in the meta tag.
-
-## Themes loading
-
-Syncfusion controls utilize the [`Roboto’s external font`](https://fonts.googleapis.com/css?family=Roboto:400,500) specifically within the **material** and **tailwind** themes, which is blocked. To enable these fonts, include the [`style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline'`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/script-src#unsafe_inline_script) directive in the meta tag.
-
 ## Image loading
 
-Using the image from **base64** in our trial license banner is not allowed on strict CSP-enabled sites. To overcome this restriction, it is necessary to add the [`img-src data:`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/img-src) directive in the meta tag or consider [registering the license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration).
+Syncfusion license banner utilize the image from **base64**, which is not allowed on strict CSP-enabled sites. To overcome this restriction, it is necessary to add the [`img-src data:`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy/img-src) directive in the meta tag or consider [registering the license key](https://ej2.syncfusion.com/javascript/documentation/licensing/license-key-registration).
