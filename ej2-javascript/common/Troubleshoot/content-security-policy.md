@@ -25,7 +25,7 @@ The following meta tag is included within the `<head>` tag and resolves the CSP 
 <head>
     ...
     <meta http-equiv="Content-Security-Policy" content="default-src 'none';
-    script-src 'self'
+    script-src 'self';
     style-src 'self' https://fonts.googleapis.com/ 'unsafe-inline';
     font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/ data: cdn.syncfusion.com 'unsafe-inline';" />
 </head>
