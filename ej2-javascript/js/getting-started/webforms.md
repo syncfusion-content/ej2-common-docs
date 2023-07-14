@@ -43,7 +43,7 @@ To get started with ASP.NET Web Forms application, ensure the following software
 
  3. Open `~/Site.master` file and add the required styles and script references of Syncfusion JavaScript controls to the `<head>` element.
 
-    ```
+    ```html
     <head>
 
        ....
@@ -61,7 +61,7 @@ To get started with ASP.NET Web Forms application, ensure the following software
 
  4. Open `~/Default.aspx` file and add the Syncfusion JavaScript control to the `<div>` element and intiate the Grid control inside the `<script>` element.
 
-    ```
+    ```html
     <div class="row">
         <h1>Syncfusion JavaScript (ES5) Grid Control</h1>
         <br />

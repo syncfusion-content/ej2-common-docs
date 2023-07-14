@@ -131,53 +131,53 @@ You can access Syncfusion control resources using either of the following method
     **Individual control CDN reference**
     > Dependency script:
     >
-    >`https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/dist/global/{DEPENDENCY_PACKAGE_NAME}.min.js`
+    >`https://cdn.syncfusion.com/ej2/22.1.34/{DEPENDENCY_PACKAGE_NAME}/dist/global/{DEPENDENCY_PACKAGE_NAME}.min.js`
     >
     > Control script:
     >
-    >`https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
+    >`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE_NAME}/dist/global/{PACKAGE_NAME}.min.js`
     >
     >**Example:**
     >
     >Grid's control script:
     >
-    >[http://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js](http://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js)
     >
     >Grid's dependency scripts:
     >
-    >[https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js](https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/dist/global/ej2-base.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/dist/global/ej2-base.min.js)
     > 
-    >[http://cdn.syncfusion.com/ej2/ej2-data/dist/global/ej2-data.min.js](http://cdn.syncfusion.com/ej2/ej2-data/dist/global/ej2-data.min.js)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-data/dist/global/ej2-data.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-data/dist/global/ej2-data.min.js)
     >
-    >[http://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js](http://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-popups/dist/global/ej2-popups.min.js](https://cdn.syncfusion.com/ej2/22.1.34/ej2-popups/dist/global/ej2-popups.min.js)
 
     > Dependency styles:
     >
-    >`https://cdn.syncfusion.com/ej2/{DEPENDENCY_PACKAGE_NAME}/styles/material.css`
+    >`https://cdn.syncfusion.com/ej2/22.1.34/{DEPENDENCY_PACKAGE_NAME}/styles/material.css`
     >
     > Control styles:
     >
-    >`https://cdn.syncfusion.com/ej2/{PACKAGE_NAME}/styles/material.css`
+    >`https://cdn.syncfusion.com/ej2/22.1.34/{PACKAGE_NAME}/styles/material.css`
     >
     >**Example:**
     >
     >Grid's control style:
     >
-    >[http://cdn.syncfusion.com/ej2/ej2-grids/styles/material.css](http://cdn.syncfusion.com/ej2/ej2-grids/styles/material.css)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css)
     >
     >Grid's dependency styles:
     >
-    >[https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css)
     > 
-    >[https://cdn.syncfusion.com/ej2/ej2-popups/styles/material.css](https://cdn.syncfusion.com/ej2/ej2-popups/styles/material.css)
+    >[https://cdn.syncfusion.com/ej2/22.1.34/ej2-popups/styles/material.css](https://cdn.syncfusion.com/ej2/22.1.34/ej2-popups/styles/material.css)
 
     You can also refer to a single script and style CDN link that contains all Syncfusion JavaScript control resources as follows:
 
     **Single script and style CDN reference for all controls:**
 
-    > Script reference for all controls: [https://cdn.syncfusion.com/ej2/dist/ej2.min.js](https://cdn.syncfusion.com/ej2/dist/ej2.min.js)
+    > Script reference for all controls: [https://cdn.syncfusion.com/ej2/22.1.34/dist/ej2.min.js](https://cdn.syncfusion.com/ej2/22.1.34/dist/ej2.min.js)
     >
-    > Style reference for all controls: [https://cdn.syncfusion.com/ej2/material.css](https://cdn.syncfusion.com/ej2/material.css)
+    > Style reference for all controls: [https://cdn.syncfusion.com/ej2/22.1.34/material.css](https://cdn.syncfusion.com/ej2/22.1.34/material.css)
 
     W> The un-versioned CDN links which always maintains latest version scripts are deprecated from 2022 Vol1 - 20.1 version. These links are available with 19.4 version scripts to avoid breaking in sites and apps that uses un-versioned links.
 
@@ -189,17 +189,17 @@ You can access Syncfusion control resources using either of the following method
         <head>
             <title>Syncfusion JavaScript (ES5) UI Control</title>
             <!-- Essential JS 2 Grid's dependent material theme -->
-            <link href="https://cdn.syncfusion.com/ej2/ej2-base/styles/material.css" rel="stylesheet" type="text/css"/>
-            <link href="https://cdn.syncfusion.com/ej2/ej2-popups/styles/material.css" rel="stylesheet" type="text/css"/>
+            <link href="https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/styles/material.css" rel="stylesheet" type="text/css"/>
+            <link href="https://cdn.syncfusion.com/ej2/22.1.34/ej2-popups/styles/material.css" rel="stylesheet" type="text/css"/>
             <!-- Essential JS 2 Grid's material theme -->
-            <link href="https://cdn.syncfusion.com/ej2/ej2-grids/styles/material.css" rel="stylesheet" type="text/css"/>
+            <link href="https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/styles/material.css" rel="stylesheet" type="text/css"/>
 
             <!-- Essential JS 2 Grid's dependent script -->
-            <script src="https://cdn.syncfusion.com/ej2/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
-            <script src="https://cdn.syncfusion.com/ej2/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
-            <script src="https://cdn.syncfusion.com/ej2/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
+            <script src="https://cdn.syncfusion.com/ej2/22.1.34/ej2-base/dist/global/ej2-base.min.js" type="text/javascript"></script>
+            <script src="https://cdn.syncfusion.com/ej2/22.1.34/ej2-data/dist/global/ej2-data.min.js" type="text/javascript"></script>
+            <script src="https://cdn.syncfusion.com/ej2/22.1.34/ej2-popups/dist/global/ej2-popups.min.js" type="text/javascript"></script>
             <!-- Essential JS 2 Grid's global script -->
-            <script src="https://cdn.syncfusion.com/ej2/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
+            <script src="https://cdn.syncfusion.com/ej2/22.1.34/ej2-grids/dist/global/ej2-grids.min.js" type="text/javascript"></script>
         </head>
         <body>
             ...
