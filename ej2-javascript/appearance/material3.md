@@ -15,16 +15,9 @@ Material 3 is an updated theme that encompasses enhanced theming, components, an
 
 ## Syncfusion Material 3 Theme
 
-Material 3 theme has been incorporated into all Syncfusion EJ2 Controls. The theme includes light and dark variants and utilizes CSS variables for easy customization of control colors in CSS format. This implementation enables seamless switching between light and dark color schemes, offering users a flexible solution to suit their preferences and application needs.
+Syncfusion has introduced the Material theme across all EJ2 Controls. The theme includes light and dark variants and utilizes CSS variables for easy customization of control colors in CSS format. This implementation enables seamless switching between light and dark color schemes, offering users a flexible solution to suit their preferences and application needs.
 
-> Note: Please be aware that in the Material 3 theme, we utilize CSS variables with rgb() values for our color variables. Using hex values in this context may lead to improper functionality.
-
-| Color Variants | Correct | Incorrect |
-|----|----|----|
-|Primary | 103, 80, 164 | #6750a4 |
-|Secondary | 98, 91, 113 | #625b71 |
-|Surface | 255, 255, 255 | #ffffff |
-|Success | 0, 172, 126 | #00ac7e |
+> Note: Please be aware that in the Material 3 theme, we utilize CSS variables with rgb() values for our color variables. Using hex values in this context may lead to improper functionality. For example, in previuos versions of our Material theme or other themes, the primary color variable was defined as follows: `$primary: #6200ee;`. In the Material 3 theme, the primary color variable is defined as follows: `--color-sf-primary: 98, 0, 238;`.
 
 ## What are CSS Variables?
 
