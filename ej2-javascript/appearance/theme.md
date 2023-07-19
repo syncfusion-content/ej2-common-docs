@@ -15,8 +15,8 @@ The Syncfusion JavaScript library has provided the below list of in-built themes
 
 |Theme | Style Sheet Name |
 |--------|--------|
-|Material3 | material3.css |
-|Material3 Dark | material3-dark.css |
+|Material 3 | material3.css |
+|Material 3 Dark | material3-dark.css |
 |Fluent | fluent.css |
 |Fluent Dark | fluent-dark.css |
 |Bootstrap 5 | bootstrap5.css |
@@ -109,8 +109,8 @@ https://cdn.syncfusion.com/ej2/<version>/<theme_name>.css
 
 | Theme Name | CDN Reference |
 |--- | --- |
-| Material3 | [https://cdn.syncfusion.com/22.1.34/material3.css](https://cdn.syncfusion.com/22.1.34/material3.css) |
-| Material3 Dark | [https://cdn.syncfusion.com/22.1.34/material3-dark.css](https://cdn.syncfusion.com/22.1.34/material3-dark.css) |
+| Material 3 | [https://cdn.syncfusion.com/22.1.34/material3.css](https://cdn.syncfusion.com/22.1.34/material3.css) |
+| Material 3 Dark | [https://cdn.syncfusion.com/22.1.34/material3-dark.css](https://cdn.syncfusion.com/22.1.34/material3-dark.css) |
 | Fluent | [https://cdn.syncfusion.com/22.1.34/fluent.css](https://cdn.syncfusion.com/22.1.34/fluent.css) |
 | Fluent Dark | [https://cdn.syncfusion.com/22.1.34/fluent-dark.css](https://cdn.syncfusion.com/22.1.34/fluent-dark.css) |
 | Bootstrap 5 | [https://cdn.syncfusion.com/22.1.34/bootstrap5.css](https://cdn.syncfusion.com/22.1.34/bootstrap5.css) |
@@ -233,7 +233,7 @@ The following list of common variables are used in the Syncfusion JavaScript lib
 
 <!-- markdownlint-disable MD033 -->
 
-### Syncfusion Material3 theme
+### Syncfusion Material 3 theme
 
 <table>
     <style>
