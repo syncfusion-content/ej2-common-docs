@@ -1,11 +1,9 @@
+import { Button, CheckBox } from '@syncfusion/ej2-buttons';
 
-
-import { Button } from '@syncfusion/ej2-buttons';
-
-var checkBoxObj = new Button.CheckBox({ label: 'Enable DarkMode', change: onDarkMode });
+var checkBoxObj = new CheckBox({ label: 'Enable DarkMode', change: onDarkMode });
 checkBoxObj.appendTo('#darkmode');
 
-function onDarkMode(e) {
+function onDarkMode(e: any) {
     e.checked ? document.body.classList.add('e-dark-mode') : document.body.classList.remove('e-dark-mode');
 }
 var btnObj = new Button({ isPrimary: true });
