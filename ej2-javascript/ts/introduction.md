@@ -164,7 +164,7 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/appbar/getting-started/">AppBar</a></div>
         <div><p class="controlcategory">NOTIFICATION</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/toast/getting-started/">Toast</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/progress-bar/getting-started/">Progress Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/progressbar/getting-started/">Progress Bar</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/spinner/getting-started/">Spinner</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/badge/getting-started/">Badge</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/skeleton/getting-started/">Skeleton</a></div>

@@ -17,7 +17,7 @@ License key can be obtained from the [My Account >> License and downloads](https
 
 Before using any JavaScript controls, you must register the obtained license key in the application code. Otherwise you will get license validation error message in application as shown in below
 
-> This application was built using a trial version of Syncfusion Essential Studio. Please include a valid license to permanently remove this license validation message. You can also obtain a free 30 day evaluation license to temporarily remove this message during the evaluation period. Please refer to this [help topic](https://ej2.syncfusion.com/licensing/licensing-errors/#license-key-not-registered) for more information.
+> This application was built using a trial version of Syncfusion Essential Studio. Please include a valid license to permanently remove this license validation message. You can also obtain a free 30 day evaluation license to temporarily remove this message during the evaluation period. Please refer to this [help topic](https://ej2.syncfusion.com/javascript/documentation/licensing/licensing-errors#license-key-not-registeredtrial-expired) for more information.
 
 ## Difference between unlock key and license key
 

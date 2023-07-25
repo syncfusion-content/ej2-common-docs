@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Installation using Offline Installer
 
-You can refer to the [Download](https://ej2.syncfusion.com/documentation/installation-upgrade/download/) section to learn how to get the JavaScript – EJ2 trial or licensed installer.
+You can refer to the [Download](../installation-and-upgrade/download) section to learn how to get the JavaScript – EJ2 trial or licensed installer.
 
 The frameworks listed below are supported in this installer.
 
