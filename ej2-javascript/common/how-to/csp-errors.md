@@ -15,7 +15,7 @@ Enabling the strict Content Security Policy (CSP) may cause the following issues
 
 ## Template rendering
 
-> From the 2023 Vol1 - 22.1 release onwards, the Content Security Policy for Syncfusion controls has been enhanced. The usage of the `unsafe-eval` directive has been eliminated from the CSP meta tag.
+> From the 2023 Vol2 - 22.1 release onwards, the Content Security Policy for Syncfusion controls has been enhanced. The usage of the `unsafe-eval` directive has been eliminated from the CSP meta tag.
 
 In your application, utilizes string or external templates, it is advisable to rewrite them using the [function template](https://ej2.syncfusion.com/javascript/documentation/common/template#function-template) approach for template properties.
 
