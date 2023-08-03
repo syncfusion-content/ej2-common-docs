@@ -101,9 +101,9 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/smithchart/getting-started/">Smith Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/sparkline/es5-getting-started/">Sparkline Charts</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/barcode/getting-started/">Barcode</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/treemap/getting-started/">TreeMap</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/treemap/es5-getting-started/">TreeMap</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/bullet-chart/getting-started/">Bullet Chart</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/kanban/getting-started/">Kanban</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/kanban/es5-getting-started/">Kanban</a></div>
         <div><p class="controlcategory">BUTTONS</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/button/es5-getting-started/">Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/button-group/getting-started/">ButtonGroup</a></div>
@@ -164,7 +164,7 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/appbar/es5-getting-started/">AppBar</a></div>
         <div><p class="controlcategory">NOTIFICATION</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/toast/es5-getting-started/">Toast</a></div>
-        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/progress-bar/es5-getting-started/">Progress Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/progressbar/es5-getting-started/">Progress Bar</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/spinner/es5-getting-started/">Spinner</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/badge/es5-getting-started/">Badge</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/javascript/documentation/skeleton/es5-getting-started/">Skeleton</a></div>
