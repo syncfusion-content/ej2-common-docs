@@ -109,22 +109,22 @@ https://cdn.syncfusion.com/ej2/<version>/<theme_name>.css
 
 | Theme Name | CDN Reference |
 |--- | --- |
-| Material 3 | [https://cdn.syncfusion.com/22.1.34/material3.css](https://cdn.syncfusion.com/22.1.34/material3.css) |
-| Material 3 Dark | [https://cdn.syncfusion.com/22.1.34/material3-dark.css](https://cdn.syncfusion.com/22.1.34/material3-dark.css) |
-| Fluent | [https://cdn.syncfusion.com/22.1.34/fluent.css](https://cdn.syncfusion.com/22.1.34/fluent.css) |
-| Fluent Dark | [https://cdn.syncfusion.com/22.1.34/fluent-dark.css](https://cdn.syncfusion.com/22.1.34/fluent-dark.css) |
-| Bootstrap 5 | [https://cdn.syncfusion.com/22.1.34/bootstrap5.css](https://cdn.syncfusion.com/22.1.34/bootstrap5.css) |
-| Bootstrap 5 Dark| [https://cdn.syncfusion.com/22.1.34/bootstrap5-dark.css](https://cdn.syncfusion.com/22.1.34/bootstrap5-dark.css) |
-| Bootstrap 4 | [https://cdn.syncfusion.com/22.1.34/bootstrap4.css](https://cdn.syncfusion.com/22.1.34/bootstrap4.css) |
-| Bootstrap 3 | [https://cdn.syncfusion.com/22.1.34/bootstrap.css](https://cdn.syncfusion.com/22.1.34/bootstrap.css) |
-| Bootstrap 3 Dark| [https://cdn.syncfusion.com/22.1.34/bootstrap-dark.css](https://cdn.syncfusion.com/22.1.34/bootstrap-dark.css) |
-| Google’s Material | [https://cdn.syncfusion.com/22.1.34/material.css](https://cdn.syncfusion.com/22.1.34/material.css) |
-| Google’s Material Dark | [https://cdn.syncfusion.com/22.1.34/material-dark.css](https://cdn.syncfusion.com/22.1.34/material-dark.css) |
-| Tailwind CSS | [https://cdn.syncfusion.com/22.1.34/tailwind.css](https://cdn.syncfusion.com/22.1.34/tailwind.css) |
-| Tailwind CSS Dark | [https://cdn.syncfusion.com/22.1.34/tailwind-dark.css](https://cdn.syncfusion.com/22.1.34/tailwind-dark.css) |
-| Microsoft Office Fabric  | [https://cdn.syncfusion.com/22.1.34/fabric.css](https://cdn.syncfusion.com/22.1.34/fabric.css) |
-| Microsoft Office Fabric Dark | [https://cdn.syncfusion.com/22.1.34/fabric-dark.css](https://cdn.syncfusion.com/22.1.34/fabric-dark.css) |
-| High Contrast  | [https://cdn.syncfusion.com/22.1.34/highcontrast.css](https://cdn.syncfusion.com/22.1.34/highcontrast.css) |
+| Material3 | [https://cdn.syncfusion.com/ej2/22.1.34/material3.css](https://cdn.syncfusion.com/ej2/22.1.34/material3.css) |
+| Material3 Dark | [https://cdn.syncfusion.com/ej2/22.1.34/material3-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/material3-dark.css) |
+| Fluent | [https://cdn.syncfusion.com/ej2/22.1.34/fluent.css](https://cdn.syncfusion.com/ej2/22.1.34/fluent.css) |
+| Fluent Dark | [https://cdn.syncfusion.com/ej2/22.1.34/fluent-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/fluent-dark.css) |
+| Bootstrap 5 | [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5.css) |
+| Bootstrap 5 Dark| [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap5-dark.css) |
+| Bootstrap 4 | [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap4.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap4.css) |
+| Bootstrap 3 | [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap.css) |
+| Bootstrap 3 Dark| [https://cdn.syncfusion.com/ej2/22.1.34/bootstrap-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/bootstrap-dark.css) |
+| Google’s Material | [https://cdn.syncfusion.com/ej2/22.1.34/material.css](https://cdn.syncfusion.com/ej2/22.1.34/material.css) |
+| Google’s Material Dark | [https://cdn.syncfusion.com/ej2/22.1.34/material-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/material-dark.css) |
+| Tailwind CSS | [https://cdn.syncfusion.com/ej2/22.1.34/tailwind.css](https://cdn.syncfusion.com/ej2/22.1.34/tailwind.css) |
+| Tailwind CSS Dark | [https://cdn.syncfusion.com/ej2/22.1.34/tailwind-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/tailwind-dark.css) |
+| Microsoft Office Fabric  | [https://cdn.syncfusion.com/ej2/22.1.34/fabric.css](https://cdn.syncfusion.com/ej2/22.1.34/fabric.css) |
+| Microsoft Office Fabric Dark | [https://cdn.syncfusion.com/ej2/22.1.34/fabric-dark.css](https://cdn.syncfusion.com/ej2/22.1.34/fabric-dark.css) |
+| High Contrast  | [https://cdn.syncfusion.com/ej2/22.1.34/highcontrast.css](https://cdn.syncfusion.com/ej2/22.1.34/highcontrast.css) |
 
 ### Individual control theme CDN reference
 
