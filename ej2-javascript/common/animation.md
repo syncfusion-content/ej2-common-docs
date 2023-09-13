@@ -147,9 +147,7 @@ setGlobalAnimation(GlobalAnimationMode.Disable);
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
 
-import { GlobalAnimationMode, setGlobalAnimation } from "@syncfusion/ej2-base";
-
-setGlobalAnimation(GlobalAnimationMode.Disable);
+ej.base.setGlobalAnimation(ej.base.GlobalAnimationMode.Disable);
 
 {% endhighlight %}
 {% endtabs %}
