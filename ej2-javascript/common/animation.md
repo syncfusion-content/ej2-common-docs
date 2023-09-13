@@ -122,7 +122,7 @@ Here is an example code snippet using the animation effects with a delay of `200
 
 ## Enable or disable animation globally
 
-Enable or disable animation for all ##Platform_Name## Common controls globally by using the `setGlobalAnimation` method with one of the below options:
+Enable or disable animation for all ##Platform_Name## controls globally by using the `setGlobalAnimation` method with one of the below options:
 
 * `GlobalAnimationMode.Enable` - Enables the animation for all components, regardless of the individual component's animation settings.
 * `GlobalAnimationMode.Disable` - Disables the animation for all components, regardless of the individual component's animation settings.
