@@ -29,15 +29,13 @@ The `unsafe-eval` directive is a CSP directive that allows the use of `eval()`. 
 
 **Resolution:**
 
-From the release (v22.1.34), Syncfusion removes the usage of `unsafe-eval` directive` in the CSP meta tag by implementing a [function template](https://ej2.syncfusion.com/documentation/common/template#function-template) approach for template properties. This will prevent the execution of code from strings and improve the overall security of Syncfusion controls.
+Starting from the release (v22.1.34), Syncfusion has removed the usage of the `unsafe-eval` directive in the CSP meta tag by implementing a [function template](https://ej2.syncfusion.com/documentation/common/template#function-template) approach for template properties. This change will prevent the execution of code from strings and further improve the overall security of Syncfusion controls.
 
 For more information about the Content Security Policy, refer to this [documentation](https://ej2.syncfusion.com/documentation/common/troubleshoot/content-security-policy).
 
 ### 2023 Volume 3 (v23.1.36) - September 15, 2023
 
-HTML Sanitizer has been implemented to prevent cross-site scripting (XSS) attacks in Syncfusion controls. This ensures that the data rendered in the controls is safe and secure.
-
-HTML sanitizing helps to prevent the security vulnerability such as  To address this aspect, 
+An HTML Sanitizer has been implemented to prevent cross-site scripting (XSS) attacks in Syncfusion controls. This ensures that the data rendered in the controls is safe and secure.
 
 **Threat:**
 
@@ -45,7 +43,7 @@ Cross-Site Scripting (XSS) is a vulnerability where attackers inject malicious c
 
 **Resolution:**
 
-The API `enableHtmlSanitizer` is included to sanitize the HTML string before rendering it in the control so we recommend to utilize the API to prevent the Cross-Site Scripting vulnerability. For example, checkout the [enableHtmlSanitizer](https://ej2.syncfusion.com/documentation/api/tooltip#enablehtmlsanitizer) API documentation in Syncfusion JavaScript Tooltip control.
+To mitigate this threat, we have introduced the `enableHtmlSanitizer` API, which sanitizes HTML strings before rendering them in the control. We recommend utilizing this API to prevent Cross-Site Scripting vulnerabilities. For example, refer to the [enableHtmlSanitizer](https://ej2.syncfusion.com/documentation/api/tooltip#enablehtmlsanitizer) API documentation in the Syncfusion JavaScript Tooltip control for more information."
 
 ## Security Issue
 
