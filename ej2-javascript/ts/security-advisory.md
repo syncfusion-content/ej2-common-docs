@@ -33,7 +33,7 @@ Starting from the release (v22.1.34), Syncfusion has removed the usage of the `u
 
 For more information about the Content Security Policy, refer to this [documentation](https://ej2.syncfusion.com/documentation/common/troubleshoot/content-security-policy).
 
-### 2023 Volume 3 (v23.1.36) - September 15, 2023
+### 2019 Volume 4 (v17.4.39) - December 17, 2019
 
 An HTML Sanitizer has been implemented to prevent cross-site scripting (XSS) attacks in Syncfusion controls. This ensures that the data rendered in the controls is safe and secure.
 
@@ -43,7 +43,19 @@ Cross-Site Scripting (XSS) is a vulnerability where attackers inject malicious c
 
 **Resolution:**
 
-To mitigate this threat, we have introduced the `enableHtmlSanitizer` API, which sanitizes HTML strings before rendering them in the control. We recommend utilizing this API to prevent Cross-Site Scripting vulnerabilities. For example, refer to the [enableHtmlSanitizer](https://ej2.syncfusion.com/documentation/api/tooltip#enablehtmlsanitizer) API documentation in the Syncfusion JavaScript Tooltip control for more information."
+To mitigate this threat, we have introduced the `sanitize` method in the Syncfusion JavaScript base library. This method sanitizes user input HTML strings before rendering them in the control. We recommend utilizing this method to prevent Cross-Site Scripting vulnerabilities. For example, refer to the following code snippet.
+
+{% tabs %}
+{% highlight ts tabtitle="TypeScript" %}
+
+import { SanitizeHtmlHelper } from '@syncfusion/ej2-base';
+
+let html: string = '<script>alert("XSS");</script>';
+
+let sanitizedHtml: string = SanitizeHtmlHelper.sanitize(html);
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Security Issue
 
