@@ -151,7 +151,7 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="../circular-gauge/accessibility">Circular Gauge</a></div>
         <div class="controlanchorlink"><a target="_self" href="../linear-gauge/accessibility">Linear Gauge</a></div>
         <div class="controlanchorlink"><a target="_self" href="../maps/accessibility">Maps</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../diagram/accessibility">Diagram Component</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../diagram/accessibility">Diagram</a></div>
         <div class="controlanchorlink"><a target="_self" href="../range-navigator/accessibility">Range Selector</a></div>
         <div class="controlanchorlink"><a target="_self" href="../smithchart/accessibility">Smith Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../sparkline/accessibility">Sparkline Charts</a></div>
