@@ -67,47 +67,47 @@ In your NueJS project, components are defined in the `./src/components.nue` file
 {% highlight ts tabtitle="./src/components.nue" %}
 
 <div @name="ejs-grids">
-    <!-- Essential JS 2 Grid's material theme and dependent script -->
-    <link href="https://cdn.syncfusion.com/ej2/23.1.42/material.css" rel="stylesheet">
-    <script src="http://cdn.syncfusion.com/ej2/23.1.42/dist/ej2.min.js" type="text/javascript"></script>
-
     <div id="Grid"></div>
-
-    <div>
-        <script>
-            data = [{OrderID: 10248, CustomerID: 'VINET', Freight: 32.38, OrderDate: new Date(8364186e5)},
-            {OrderID: 10249, CustomerID: 'TOMSP', Freight: 11.61, OrderDate: new Date(836505e6)},
-            {OrderID: 10250, CustomerID: 'HANAR', Freight: 65.83, OrderDate: new Date(8367642e5)},
-            {OrderID: 10251, CustomerID: 'VICTE', Freight: 41.34, OrderDate: new Date(8368506e5)},
-            {OrderID: 10252, CustomerID: 'SUPRD', Freight: 51.3, OrderDate: new Date(8367642e5)}];
-
-            ej.grids.Grid.Inject(ej.grids.Page);
-            grid = new ej.grids.Grid({
-                dataSource: data,
-                columns: [
-                    {field: 'OrderID', headerText: 'Order ID', textAlign: 'Right', width: 120, type: 'number'},
-                    {field: 'CustomerID', width: 140, headerText: 'Customer ID', type: 'string'},
-                    {field: 'Freight', headerText: 'Freight', textAlign: 'Right', width: 120, format: 'C'},
-                    {field: 'OrderDate', headerText: 'Order Date', width: 140, format: 'yMd'}
-                ],
-                allowPaging: true,
-                pageSettings: {pageSize: 2}
-            });
-
-            grid.appendTo('#Grid');
-        </script>
-    </div>
 </div>
 
 {% endhighlight %}
 {% endtabs %}
 
-> To know more about built-in themes and CSS reference for individual components, refer to the [themes](https://ej2.syncfusion.com/javascript/documentation/appearance/theme/) section.
+## Add Component scripts
+
+In the `www/` folder location, you need to use your script files. Create a **www/index.js** file and add the following scripts:
+
+{% tabs %}
+{% highlight ts tabtitle="./www/index.js" %}
+
+    var data = [{OrderID: 10248, CustomerID: 'VINET', Freight: 32.38, OrderDate: new Date(8364186e5)},
+    {OrderID: 10249, CustomerID: 'TOMSP', Freight: 11.61, OrderDate: new Date(836505e6)},
+    {OrderID: 10250, CustomerID: 'HANAR', Freight: 65.83, OrderDate: new Date(8367642e5)},
+    {OrderID: 10251, CustomerID: 'VICTE', Freight: 41.34, OrderDate: new Date(8368506e5)},
+    {OrderID: 10252, CustomerID: 'SUPRD', Freight: 51.3, OrderDate: new Date(8367642e5)}];
+
+    ej.grids.Grid.Inject(ej.grids.Page);
+    var grid = new ej.grids.Grid({
+        dataSource: data,
+        columns: [
+            {field: 'OrderID', headerText: 'Order ID', textAlign: 'Right', width: 120, type: 'number'},
+            {field: 'CustomerID', width: 140, headerText: 'Customer ID', type: 'string'},
+            {field: 'Freight', headerText: 'Freight', textAlign: 'Right', width: 120, format: 'C'},
+            {field: 'OrderDate', headerText: 'Order Date', width: 140, format: 'yMd'}
+        ],
+        allowPaging: true,
+        pageSettings: {pageSize: 2}
+    });
+
+    grid.appendTo('#Grid');
+
+{% endhighlight %}
+{% endtabs %}
 
 ## Define Component in Layout
 
-In the `./src/layout.nue` file, specify the component you've defined in `components.nue` using the component name with the `<ejs-grids/>` tag. This integrates the Syncfusion component into your project's layout.
-
+In the `./src/layout.nue` file, specify the component you've defined in `components.nue` using the component name with the **<ejs-grids/>** tag. Also, add the links and scripts for this component to integrate the Syncfusion grid component into your project's layout, and include the `index.js` script file.
+ 
 {% tabs %}
 {% highlight ts tabtitle="./src/layout.nue" %}
 
@@ -117,16 +117,22 @@ In the `./src/layout.nue` file, specify the component you've defined in `compone
   <meta name="viewport" content="width=device-width">
   <link rel="shortcut icon" href="{ favicon }">
   <title>Grid</title>
+  <!-- Essential JS 2 Grid's material theme and dependent script -->
+  <link href="https://cdn.syncfusion.com/ej2/23.1.42/material.css" rel="stylesheet">
+  <script src="http://cdn.syncfusion.com/ej2/23.1.42/dist/ej2.min.js" type="text/javascript"></script>
+  <script type="module" src="index.js"></script>
 
   <!-- mention the component defined in the components.nue  -->
   <ejs-grids/>
-
+  
   <script type="module" src="setup.js"></script>
 
 </html>
 
 {% endhighlight %}
 {% endtabs %}
+
+> To know more about built-in themes and CSS reference for individual components, refer to the [themes](https://ej2.syncfusion.com/javascript/documentation/appearance/theme/) section.
 
 ## Run the application
 
