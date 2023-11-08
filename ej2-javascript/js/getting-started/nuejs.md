@@ -23,17 +23,11 @@ Before getting started with the Nue.js application, ensure the following prerequ
 
 * [Node.js](https://nodejs.org/en)
 
-* [Git](https://github.com/)
-
-* [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=yaoyuanzhang.nue&ssr=false) Visual Studio users (optional)
-
-## Setting up a NueJS Project using create-nue Repository
+## Setting up a NueJS project using create-nue repository
 
 The create-nue repository provides a convenient way to start your Nue JS project, allowing you to quickly familiarize yourself with the framework. Follow these steps to set up your Nue JS project using the create-nue repository:
 
-### Clone the Repository
-
-Open your terminal or command prompt and enter the following command to clone the create-nue repository:
+1. Open your terminal or command prompt and enter the following command to clone the create-nue repository:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -44,9 +38,7 @@ git clone https://github.com/nuejs/create-nue.git --depth 1 ej2-nue-grid
 
 In the above command, `ej2-nue-grid` is the project name. You can replace it with any desired name for your project.
 
-### Navigate to the project directory and Install dependencies
-
-Navigate to the newly created directory with the "cd" command and then install dependencies using "npm install" as shown below:
+2. Navigate to the newly created directory with the "cd" command and then install dependencies using "npm install" as shown below:
 
 {% tabs %}
 {% highlight bash tabtitle="CMD" %}
@@ -61,10 +53,10 @@ npm install
 
 ## Include Syncfusion Javascript Components
 
-In your NueJS project, components are defined in the `./src/components.nue` file. To include Syncfusion javascript components, create a component in this file using the `@name` attribute. In the example below, we demonstrate how to include the Syncfusion Javascript Grid component with the component name "ejs-grids".
+1. In your NueJS project, components are defined in the `./src/components.nue` file. To include Syncfusion javascript components, create a component in this file using the `@name` attribute. In the example below, we demonstrate how to include the Syncfusion Javascript Grid component with the component name "ejs-grids".
 
 {% tabs %}
-{% highlight ts tabtitle="./src/components.nue" %}
+{% highlight html tabtitle="./src/components.nue" %}
 
 <div @name="ejs-grids">
     <div id="Grid"></div>
@@ -73,12 +65,10 @@ In your NueJS project, components are defined in the `./src/components.nue` file
 {% endhighlight %}
 {% endtabs %}
 
-## Add Component scripts
-
-In the `www/` folder location, you need to use your script files. Create a **www/index.js** file and add the following scripts:
+2. In the `www/` folder location, you need to use your script files. Create a **www/index.js** file and add the following scripts:
 
 {% tabs %}
-{% highlight ts tabtitle="./www/index.js" %}
+{% highlight js tabtitle="./www/index.js" %}
 
     var data = [{OrderID: 10248, CustomerID: 'VINET', Freight: 32.38, OrderDate: new Date(8364186e5)},
     {OrderID: 10249, CustomerID: 'TOMSP', Freight: 11.61, OrderDate: new Date(836505e6)},
@@ -104,12 +94,10 @@ In the `www/` folder location, you need to use your script files. Create a **www
 {% endhighlight %}
 {% endtabs %}
 
-## Define Component in Layout
-
-In the `./src/layout.nue` file, specify the component you've defined in `components.nue` using the component name with the **<ejs-grids/>** tag. Also, add the links and scripts for this component to integrate the Syncfusion grid component into your project's layout, and include the `index.js` script file.
+3. In the `./src/layout.nue` file, specify the component you've defined in `components.nue` using the component name with the **<ejs-grids/>** tag. Also, add the links and scripts for this component to integrate the Syncfusion grid component into your project's layout, and include the `index.js` script file.
  
 {% tabs %}
-{% highlight ts tabtitle="./src/layout.nue" %}
+{% highlight html tabtitle="./src/layout.nue" %}
 
 <html>
   <meta charset="utf-8">
