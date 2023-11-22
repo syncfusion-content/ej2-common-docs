@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 This section provides a step-by-step guide for setting up a Nue.js application and integrating the Syncfusion Javascript components.
 
-## What is Nue.js?
+## Nue.js overview:
 
 [Nue.js](https://Nuejs.org/) is a lightweight JavaScript library used to create user interfaces. It's like "Just HTML" and suits UX developers focusing on interaction design, accessibility, and user experience, similar to React's "Just JavaScript" approach.
 
@@ -23,7 +23,7 @@ Before getting started with the Nue.js application, ensure the following prerequ
 
 * [Node.js](https://nodejs.org/en)
 
-## Setting up a NueJS project using create-nue repository
+## Setting up the NueJS project
 
 The create-nue repository provides a convenient way to start your Nue JS project, allowing you to quickly familiarize yourself with the framework. Follow these steps to set up your Nue JS project using the create-nue repository:
 
@@ -51,7 +51,7 @@ npm install
 
 > For additional information, refer to the [Nue.js](https://nuejs.org/docs/nuejs/getting-started.html) document.
 
-## Include Syncfusion Javascript Components
+## Add Syncfusion Javascript Component
 
 1. In your NueJS project, components are defined in the `./src/components.nue` file. To include Syncfusion javascript components, create a component in this file using the `@name` attribute. In the example below, we demonstrate how to include the Syncfusion Javascript Grid component with the component name "ejs-grids".
 
