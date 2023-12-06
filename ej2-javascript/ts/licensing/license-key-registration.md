@@ -30,7 +30,7 @@ Register the license key at the entry point of the project before using the Sync
 // Registering Syncfusion license key
 import { registerLicense } from '@syncfusion/ej2-base';
 
-registerLicense('License key');
+registerLicense('Replace your generated license key here');
 
 ```
 
