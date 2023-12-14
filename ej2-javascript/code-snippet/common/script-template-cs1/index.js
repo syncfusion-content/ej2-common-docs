@@ -1,6 +1,6 @@
 var grid = new ej.grids.Grid({
     dataSource: employeeData,
-    rowTemplate: '#customTemplate',
+    rowTemplate: '#rowtemplate',
     columns: [
         { headerText: 'Employee ID', width: 150, textAlign: 'Center', field: 'OrderID' },
         { headerText: 'Employee Details', width: 300, field: 'EmployeeID' }
