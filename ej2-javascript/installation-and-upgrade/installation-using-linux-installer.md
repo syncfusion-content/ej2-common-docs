@@ -1,10 +1,12 @@
 ---
 layout: post
-title: Installing Syncfusion JavaScript Linux installer - Syncfusion
-description: Learn here about how to install Syncfusion JavaScript Linux installer after downloading from our Syncfusion website.
-platform: common
-control: JavaScript
+title: Installation using linux installer in ##Platform_Name## Installation and upgrade control | Syncfusion
+description: Learn here all about Installation using linux installer in Syncfusion ##Platform_Name## Installation and upgrade control of Syncfusion Essential JS 2 and more.
+platform: ej2-javascript
+control: Installation using linux installer 
+publishingplatform: ##Platform_Name##
 documentation: ug
+domainurl: ##DomainURL##
 ---
 
 # Installing Syncfusion JavaScript Linux installer
@@ -43,9 +45,6 @@ The steps below show how to install JavaScript Linux installer.
 4. You can launch the demo source and use the NuGet packages included in the Linux installer.
 
 
-5. Run the following command in linux machine to deploy the ASP.NET Core samples
- 
-  **dotnet restore projectname -s \nuget** in order to restore.
 
 ## License key registration in samples
 
