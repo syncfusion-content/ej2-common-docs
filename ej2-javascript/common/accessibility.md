@@ -23,7 +23,7 @@ The accessibility of the controls consists of the following standards and aspect
 
 * [ADA](https://www.ada.gov/) - A law to ensure that people with disabilities have the same opportunities and access as people without disabilities.
 
-* [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) - The Web Content Accessibility Guidelines (WCAG) provide guidelines developed by the World Wide Web Consortium (W3C) to ensure web content is accessible to people with disabilities. `WCAG` establishes a framework of accessibility principles and their associated success criteria. The level of accessibility conformance achieved by a web application is determined by the extent to which it meets these success criteria, categorized into three levels: A, AA, and AAA.
+* [WCAG 2.2](https://www.w3.org/WAI/standards-guidelines/wcag/) - The Web Content Accessibility Guidelines (WCAG) provide guidelines developed by the World Wide Web Consortium (W3C) to ensure web content is accessible to people with disabilities. `WCAG 2.2` establishes a framework of accessibility principles and their associated success criteria. The level of accessibility conformance achieved by a web application is determined by the extent to which it meets these success criteria, categorized into three levels: A, AA, and AAA.
 
 * [Section 508](https://www.section508.gov/) - It is a set of guidelines for making electronic and information technology (EIT) accessible to people with disabilities. These standards apply to federal agencies in the United States, and they are based on the Web Content Accessibility Guidelines (WCAG).
 
@@ -79,7 +79,7 @@ Syncfusion ##Platform_Name## controls will keep improving when there is anything
 
 ## Accessibility support for specific controls
 
-Consult the control-specific documents below for detailed information about how Syncfusion ##Platform_Name## controls ensure compliance with accessibility standards, encompassing Section 508, WAI-ARIA, WCAG, keyboard navigation, and more.
+Consult the control-specific documents below for detailed information about how Syncfusion ##Platform_Name## controls ensure compliance with accessibility standards, encompassing Section 508, WAI-ARIA, WCAG 2.2, keyboard navigation, and more.
 
 <style>
 # table
@@ -186,7 +186,6 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="../switch/accessibility">Toggle Switch Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="../signature/accessibility">Signature</a></div>
         <div class="controlanchorlink"><a target="_self" href="../rating/accessibility">Rating</a></div>
-        <div><p class="controlcategory">FORMS</p></div>
     </td>
     <td>
         <div><p class="controlcategory">DROPDOWNS</p></div>
