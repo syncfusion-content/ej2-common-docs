@@ -43,7 +43,7 @@ There are several methodologies of accessibility validation that can be performe
 
 * Each ##Platform_Name## control is subjected to manual testing with a screen reader and also automated test cases to ensure the control's required attributes.
 
-* Attributes are allocated and updated correctly during interaction as well. Each control has been assigned a distinct `Role` attribute and its own set of ARIA attributes defined by the [WAI-ARIA 2.2](https://www.w3.org/TR/WCAG22/) specification.
+* Attributes are allocated and updated correctly during interaction as well. Each control has been assigned a distinct `Role` attribute and its own set of ARIA attributes defined by the [WCAG 2.2](https://www.w3.org/TR/WCAG22/) specification.
 
 In addition to the methodologies mentioned above, Syncfusion ##Platform_Name## controls are constructed to support the following accessibility aspects.
 
