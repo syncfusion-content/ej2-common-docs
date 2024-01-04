@@ -25,7 +25,7 @@ Register the license key by using  'registerLicense' method after the [Syncfusio
 
 ```ts
 // Registering Syncfusion license key
-ej.base.registerLicense('License Key');
+ej.base.registerLicense('Replace your generated license key here');
 ```
 
 >Note: Only from 2022 Vol 1 v20.1.0.47, license key registration required for Essential JavaScript 2 products.
