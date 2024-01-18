@@ -43,7 +43,7 @@ Register the Syncfusion license key through npx command in one of the following 
 * [Register the license key with the license file](#register-the-license-key-with-the-license-file)
 * [Register the license key with the environment variable](#register-the-license-key-with-the-environment-variable)
 
->If both the license text file and the environment variable are used for license registration, priority is set to `syncfusion-license.txt` file. If you want to use the environment variable for license registration, then remove the license text file from the application.
+>If both the license text file and the environment variable are used for license registration, priority is set to `syncfusion-license.txt` file. If you want to use the environment variable for license registration, then remove the license text file from the application. 
 
 ### Register the license key with the license file
 
@@ -63,7 +63,8 @@ npx syncfusion-license activate
 
 * Now run the application. If you are facing a license validation error, refer to this [link](https://ej2.syncfusion.com/documentation/licensing/licensing-errors/) to resolve it. Also, find the most frequent license registration questions from this [`link`](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot/).
 
->If you don't want to use the license text file in the application, refer to this [link](#register-the-license-key-with-the-environment-variable) to use an environment variable and register the Syncfusion license key.
+>If you don't want to use the license text file in the application, refer to this [link](#register-the-license-key-with-the-environment-variable) to use an environment variable and register the Syncfusion license key. Also, check out some common licensing FAQs while registering the license key using the npx command from this [link](https://ej2.syncfusion.com/documentation/licensing/licensing-troubleshoot#Reactivating-license-once-after-updating-the-package-version-while-using-npx)
+
 
 ### Register the license key with the environment variable
 
