@@ -11,7 +11,7 @@ domainurl: ##DomainURL##
 
 # Security Vulnerabilities and Considerations
 
-This document provides a description of the security updates available for Syncfusion Essential JS2 controls for volume release.
+This document outlines critical security enhancements and fixes introduced in the latest volume release of Syncfusion Essential JS2 controls. These updates are designed to address specific vulnerabilities and ensure the robust security of the components.
 
 At Syncfusion, we prioritize the security of our controls to ensure a robust and trustworthy environment for our users. We have implemented comprehensive measures to mitigate potential security vulnerabilities, including but not limited to cross-site scripting and insecure dependencies.
 
