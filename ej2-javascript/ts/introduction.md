@@ -91,6 +91,7 @@ letter-spacing: 0.7px;
         <div><p class="controlcategory">DATA VISUALIZATION</p></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/accumulation-chart/getting-started">Accumulation Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/chart/getting-started/">Charts</a></div>
+        <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/3d-chart/getting-started">3D Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/stock-chart/getting-started/">Stock Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/circular-gauge/getting-started/">Circular Gauge</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/linear-gauge/getting-started/">Linear Gauge</a></div>
@@ -159,6 +160,7 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/toolbar/getting-started/">Toolbar</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/treeview/getting-started/">TreeView</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/file-manager/getting-started/">File Manager</a></div>
+        div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/stepper/getting-started">Stepper</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/breadcrumb/getting-started/">Breadcrumb</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/pager/getting-started/">Pager</a></div>
         <div class="controlanchorlink"><a target="_self" href="https://ej2.syncfusion.com/documentation/appbar/getting-started/">AppBar</a></div>
