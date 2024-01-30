@@ -13,7 +13,7 @@ domainurl: ##DomainURL##
 
 Security is a critical aspect of web applications to protect them from various threats and vulnerabilities. Using HTTPS to encrypt data, checking and cleaning user inputs, and setting up robust authentication methods like multi-factor authentication are essential steps.
 
-In this considerations, Syncfusion Javascript controls are implemented.
+Syncfusion Javascript controls are implemented with these security considerations.
 
 ## Security Vulnerabilities
 
