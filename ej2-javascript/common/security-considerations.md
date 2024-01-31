@@ -9,11 +9,11 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Syncfusion Javascript - Security Considerations
+# Syncfusion JavaScript - Security Considerations
 
 Security is a critical aspect of web applications to protect them from various threats and vulnerabilities. Using HTTPS to encrypt data, checking and cleaning user inputs, and setting up robust authentication methods like multi-factor authentication are essential steps.
 
-Syncfusion Javascript controls are implemented with these security considerations.
+Syncfusion JavaScript controls are implemented with these security considerations.
 
 ## Security Vulnerabilities
 
@@ -21,11 +21,11 @@ Security vulnerabilities in web applications refer to weaknesses or flaws in the
 
 * Cross-Site Scripting- XSS ([Cross-Site Scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)) is a security vulnerability that can occur in web applications. It allows an attacker to inject malicious code into a web page, which is then executed in the browser of a user who visits the page. JavaScript is commonly used to carry out XSS attacks because it can be easily injected into a web page and executed in the user's browser.
 
-To prevent the above security vulnerabilities, syncfusion controls focused on this type of vulnerabilities and implemented.
+To implement the web application with secured aspects, Syncfusion JavaScript controls are supported.
 
 ## Security Considerations
 
-Security is a critical aspect of software development, and considering security from the beginning of the development process is essential to secure applications. Here are some key security considerations for Syncfusion Javascript controls.
+Security is a critical aspect of software development, and considering security from the beginning of the development process is essential to secure applications. Here are some key security considerations for Syncfusion JavaScript controls.
 
 * Content Security Policy
 * HTML Sanitizer
@@ -36,7 +36,7 @@ Security is a critical aspect of software development, and considering security 
 
 [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) (CSP) is a one of the security feature, that helps the detect the cross-site-scripting(XSS) attacks and malicious code injection. It will throw the errors and warnings while using the inline-styles and inline scripts, eval, new Function, etc in your applications.
 
-If you want to utilize the CSP in your application, add a `<meta>` tag and add the CSP directives. Syncfusion Javascript controls are considered and implemented with CSP directives. These directives are below.
+To implement Content Security Policy (CSP) in your application, include a `<meta>` tag with specified CSP directives. Syncfusion JavaScript controls have been designed and implemented with adherence to these CSP directives, ensuring enhanced security. These directives are below.
 
 #### CSP Directives
 
@@ -45,8 +45,6 @@ If you want to utilize the CSP in your application, add a `<meta>` tag and add t
 |  `style-src`  | Defines the allowed sources for loading stylesheets. This helps mitigate style-based attacks by restricting the locations from which styles can be applied. | `style-src 'self' https://cdn.syncfusion.com/ https://fonts.googleapis.com/ 'unsafe-inline';`|
 |  `font-src`  | Defines the allowed sources for loading fonts. It helps prevent font-related security issues by restricting the locations from which fonts can be loaded. | `font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/ data: cdn.syncfusion.com 'unsafe-inline';` |
 |  `img-src`  | Specifies the allowed sources for loading images. It helps control from where images can be displayed on the web page. | `img-src 'self' data:"` |
-
-> In CSP directives, there is no need to include `script-src` in the meta tag. If you are adding inline scripts, you can use this directive.
 
 #### CSP Sources
 
@@ -66,6 +64,23 @@ Several Syncfusion UI controls accept user input values in the form of HTML stri
 
 When this property is enabled, the HTML string undergoes a thorough sanitization process before being rendered in the component. This approach ensures that user inputs containing potential security threats are meticulously filtered, addressing the risk of XSS and contributing to the overall security robustness of our components in the face of potential attacks.
 
+Some of Syncfusion JavaScript controls are enabled the sanitize property as default. These controls are below.
+
+| Controls  | 
+|-----------|
+| [RichTextEditor](https://ej2.syncfusion.com/documentation/rich-text-editor/miscellaneous#custom-cross-site-scripting) |
+| [Schedule](https://ej2.syncfusion.com/documentation/api/schedule/#enablehtmlsanitizer)  |
+| [Kanban](https://ej2.syncfusion.com/documentation/api/kanban#enablehtmlsanitizer)  |
+| [Toolbar](https://ej2.syncfusion.com/documentation/api/toolbar#enablehtmlsanitizer)  |
+| [Uploader](https://ej2.syncfusion.com/documentation/api/uploader#enablehtmlsanitizer) |
+| [Dashboard](https://ej2.syncfusion.com/documentation/api/dashboard-layout#enablehtmlsanitizer) |
+| [Splitter](https://ej2.syncfusion.com/documentation/api/splitter#enablehtmlsanitizer)  |
+| [Dialog](https://ej2.syncfusion.com/documentation/api/dialog#enablehtmlsanitizer) |
+| [Toast](https://ej2.syncfusion.com/documentation/api/toast#enablehtmlsanitizer)  |
+| [File manager](https://ej2.syncfusion.com/documentation/api/file-manager#enablehtmlsanitizer) |
+
+To sanitize input values in a web application using Syncfusion sanitizer, you can use the following code.
+
 ```ts
 import { SanitizeHtmlHelper } from '@syncfusion/ej2-base';
 
@@ -74,12 +89,26 @@ let html: string = '<script>alert("XSS");</script>';
 let sanitizedHtml: string = SanitizeHtmlHelper.sanitize(html);
 ```
 
+To sanitize the template content with Syncfusion JavaScript controls, please refer the below code.
+
+```ts
+import { Dialog } from '@syncfusion/ej2-popups'; 
+import { Button } from '@syncfusion/ej2-buttons'; 
+import { SanitizeHtmlHelper } from '@syncfusion/ej2-base'; 
+
+let dialog: Dialog = new Dialog({ 
+  header: SanitizeHtmlHelper.sanitize( 
+    headerimg + 
+      '<div id="dlg-template" title="Nancy" class="e-icon-settings"> Nancy </div><div onmousemove=function(){alert("XSS")}>XSS</div>') 
+  }); 
+```
+
 ### Function Template
 
-Using Syncfusion Javascript UI Controls, users can customize and add the functionalities. To achieve this, Syncfusion provided the template support also. A template can contains a variety of elements, depending on the context in which it is being used. This template rendering also compatible with Content Security Policy. For more information, you can refer this [documentation](https://ej2.syncfusion.com/documentation/common/template#function-template).
+ Users can customize the control's appearance and functionality to suit their application's specific needs through template support. Syncfusion function template support also compatible with Content Security Policy. For more information, you can refer this [documentation](https://ej2.syncfusion.com/documentation/common/template#function-template).
 
 ### Preventing from Third-Party Cookies
 
 Cookies are small pieces of data stored on a user's device by the web browser while browsing a website. They are commonly used in web applications for various purposes, such as session management, user authentication, and tracking user behavior.
 
-Syncfusion Javascript controls are not using any type of cookies to store the any type of datas, apart from local storage. If persistence is enabled, data is stored in local storage.
+Syncfusion JavaScript controls are not using any type of cookies to store the any type of datas, apart from local storage. If persistence is enabled, data is stored in local storage. Local Storage are enabled by default in web browsers and it store the data on the client side.
