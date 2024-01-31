@@ -21,8 +21,6 @@ Security vulnerabilities in web applications refer to weaknesses or flaws in the
 
 * Cross-Site Scripting- XSS ([Cross-Site Scripting](https://developer.mozilla.org/en-US/docs/Glossary/Cross-site_scripting)) is a security vulnerability that can occur in web applications. It allows an attacker to inject malicious code into a web page, which is then executed in the browser of a user who visits the page. JavaScript is commonly used to carry out XSS attacks because it can be easily injected into a web page and executed in the user's browser.
 
-* Function Templates - In JavaScript, template literals are often used to create strings, and they are generally safe when used properly. However, security vulnerabilities can arise if user input is directly incorporated into a template literal without proper validation and sanitization.
-
 To prevent the above security vulnerabilities, syncfusion controls focused on this type of vulnerabilities and considered the security features.
 
 ## Security Considerations
