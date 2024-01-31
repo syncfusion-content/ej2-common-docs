@@ -131,86 +131,102 @@ letter-spacing: 0.7px;
         <div><p class="controlcategory">GRIDS</p></div>
         <div class="controlanchorlink"><a target="_self" href="../grid/accessibility">DataGrid</a></div>
         <div class="controlanchorlink"><a target="_self" href="../pivotview/accessibility">Pivot Table</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../treegrid/accessibility">TreeGrid</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../treegrid/accessibility">Tree Grid</a></div>
          <div class="controlanchorlink"><a target="_self" href="../spreadsheet/accessibility">Spreadsheet</a></div>
         <div><p class="controlcategory">FILE VIEWERS & EDITORS</p></div>
+        <div class="controlanchorlink"><a target="_self" href="../inplace-editor/accessibility">In-place Editor</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../pdfviewer/accessibility">PDF Viewer</a></div>
         <div class="controlanchorlink"><a target="_self" href="../rich-text-editor/accessibility">RichTextEditor</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../pdfviewer/keyboard-accessibility">PDF Viewer</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../document-editor/accessibility">Word Processor</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../image-editor/accessibility">Image Editor</a></div>
         <div><p class="controlcategory">LAYOUT</p></div>
         <div class="controlanchorlink"><a target="_self" href="../dialog/accessibility">Dialog</a></div>
         <div class="controlanchorlink"><a target="_self" href="../listview/accessibility">ListView</a></div>
         <div class="controlanchorlink"><a target="_self" href="../tooltip/accessibility">Tooltip</a></div>
         <div class="controlanchorlink"><a target="_self" href="../splitter/accessibility">Splitter</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../dashboard-layout/accessibility">Dashboard</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../dashboard-layout/accessibility">Dashboard Layout</a></div>
     </td>
     <td>
         <div><p class="controlcategory">DATA VISUALIZATION</p></div>
         <div class="controlanchorlink"><a target="_self" href="../accumulation-chart/accessibility">Accumulation Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../chart/accessibility">Charts</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../3d-chart/accessibility">3D Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../stock-chart/accessibility">Stock Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../circular-gauge/accessibility">Circular Gauge</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../diagram/accessibility">Diagram</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../heatmap-chart/accessibility">HeatMap Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../linear-gauge/accessibility">Linear Gauge</a></div>
         <div class="controlanchorlink"><a target="_self" href="../maps/accessibility">Maps</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../diagram/accessibility">Diagram</a></div>
         <div class="controlanchorlink"><a target="_self" href="../range-navigator/accessibility">Range Selector</a></div>
         <div class="controlanchorlink"><a target="_self" href="../smithchart/accessibility">Smith Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../sparkline/accessibility">Sparkline Charts</a></div>
         <div class="controlanchorlink"><a target="_self" href="../treemap/accessibility">TreeMap</a></div>
         <div class="controlanchorlink"><a target="_self" href="../bullet-chart/accessibility">Bullet Chart</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../kanban/accessibility">Kanban</a></div>
         <div><p class="controlcategory">BUTTONS</p></div>
-        <div class="controlanchorlink"><a target="_self" href="../button-group/accessibility">ButtonGroup</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../button/accessibility">Button</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../button-group/accessibility">Button Group</a></div>
         <div class="controlanchorlink"><a target="_self" href="../drop-down-button/accessibility">Dropdown Menu</a></div>
         <div class="controlanchorlink"><a target="_self" href="../progress-button/accessibility">Progress Button</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../split-button/accessibility">SplitButton</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../split-button/accessibility">Split Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="../chips/accessibility">Chips</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../floating-action-button/accessibility">FAB</a></div>
         <div class="controlanchorlink"><a target="_self" href="../speed-dial/accessibility">Speed Dial</a></div>
     </td>
     <td>
         <div><p class="controlcategory">CALENDARS</p></div>
         <div class="controlanchorlink"><a target="_self" href="../schedule/accessibility">Scheduler</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../gantt/accessibility">Gantt Chart</a></div>
         <div class="controlanchorlink"><a target="_self" href="../calendar/accessibility">Calendar</a></div>
         <div class="controlanchorlink"><a target="_self" href="../datepicker/accessibility">DatePicker</a></div>
         <div class="controlanchorlink"><a target="_self" href="../daterangepicker/accessibility">DateRangePicker</a></div>
         <div class="controlanchorlink"><a target="_self" href="../datetimepicker/accessibility">DateTime Picker</a></div>
         <div class="controlanchorlink"><a target="_self" href="../timepicker/accessibility">TimePicker</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../gantt/accessibility">Gantt Chart</a></div>
         <div><p class="controlcategory">INPUTS</p></div>
+        <div class="controlanchorlink"><a target="_self" href="../textbox/accessibility">TextBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="../maskedtextbox/accessibility">Input Mask</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../numerictextbox/accessibility">Numeric TextBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="../maskedtextbox/accessibility">Masked TextBox</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../radio-button/accessibility">RadioButton</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../numerictextbox/accessibility">Numeric TextBox</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../radio-button/accessibility">Radio Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="../check-box/accessibility">CheckBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="../color-picker/accessibility">Color Picker</a></div>
         <div class="controlanchorlink"><a target="_self" href="../uploader/wai-aria-accessibility">File Upload</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../range-slider/accessibility">Range Slider</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../range-slider/accessibility">Slider</a></div>
         <div class="controlanchorlink"><a target="_self" href="../switch/accessibility">Toggle Switch Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="../signature/accessibility">Signature</a></div>
         <div class="controlanchorlink"><a target="_self" href="../rating/accessibility">Rating</a></div>
+        <div><p class="controlcategory">FORMS</p></div>
+        <div class="controlanchorlink"><a target="_self" href="../query-builder/accessibility">Query Builder</a></div>
     </td>
     <td>
         <div><p class="controlcategory">DROPDOWNS</p></div>
         <div class="controlanchorlink"><a target="_self" href="../auto-complete/accessibility">AutoComplete</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../list-box/accessibility">ListBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="../combo-box/accessibility">ComboBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="../drop-down-list/accessibility">Dropdown List</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../multi-select/accessibility">Multiselect DropDown</a></div>
         <div class="controlanchorlink"><a target="_self" href="../drop-down-tree/accessibility">DropDown Tree</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../multi-select/accessibility">Multiselect DropDown</a></div>
         <div class="controlanchorlink"><a target="_self" href="../mention/accessibility">Mention</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../list-box/accessibility">ListBox</a></div>
         <div><p class="controlcategory">NAVIGATION</p></div>
         <div class="controlanchorlink"><a target="_self" href="../accordion/accessibility">Accordion</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../appbar/accessibility">AppBar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../breadcrumb/accessibility">Breadcrumb</a></div>
         <div class="controlanchorlink"><a target="_self" href="../carousel/accessibility">Carousel</a></div>
         <div class="controlanchorlink"><a target="_self" href="../context-menu/accessibility">Context Menu</a></div>
         <div class="controlanchorlink"><a target="_self" href="../menu/accessibility">Menu Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../sidebar/accessibility">Sidebar</a></div>
         <div class="controlanchorlink"><a target="_self" href="../tab/accessibility">Tabs</a></div>
         <div class="controlanchorlink"><a target="_self" href="../toolbar/accessibility">Toolbar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../ribbon/accessibility">Ribbon</a></div>
         <div class="controlanchorlink"><a target="_self" href="../treeview/accessibility">TreeView</a></div>
         <div class="controlanchorlink"><a target="_self" href="../file-manager/accessibility">File Manager</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../breadcrumb/accessibility">Breadcrumb</a></div>
         <div class="controlanchorlink"><a target="_self" href="../pager/accessibility">Pager</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../stepper/accessibility">Stepper</a></div>
         <div><p class="controlcategory">NOTIFICATION</p></div>
-        <div class="controlanchorlink"><a target="_self" href="../toast/accessibility">Toast</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../skeleton/accessibility">Skeleton</a></div>
         <div class="controlanchorlink"><a target="_self" href="../message/accessibility">Message</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../toast/accessibility">Toast</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../progress-bar/accessibility">Progress Bar</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../skeleton/accessibility">Skeleton</a></div>
     </td>
 </tr>
 </table>
