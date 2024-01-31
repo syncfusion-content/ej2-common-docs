@@ -30,6 +30,7 @@ Security is a critical aspect of software development, and considering security 
 * Content Security Policy
 * HTML Sanitizer
 * Function Template
+* Cookies
 
 ### Content Security Policy
 
@@ -76,3 +77,9 @@ let sanitizedHtml: string = SanitizeHtmlHelper.sanitize(html);
 ### Function Template
 
 Using Syncfusion Javascript UI Controls, users can customize and add the functionalities. To achieve this, Syncfusion provided the template support also. A template can contains a variety of elements, depending on the context in which it is being used. This template rendering also compatible with Content Security Policy. For more information, you can refer this [documentation](https://ej2.syncfusion.com/documentation/common/template#function-template).
+
+### Preventing from Third-Party Cookies
+
+Cookies are small pieces of data stored on a user's device by the web browser while browsing a website. They are commonly used in web applications for various purposes, such as session management, user authentication, and tracking user behavior.
+
+Syncfusion Javascript controls are not using any type of cookies to store the any type of datas, apart from local storage. Local storage saves information only if the state persistence is turned on.
