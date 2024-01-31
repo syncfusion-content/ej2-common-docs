@@ -82,4 +82,4 @@ Using Syncfusion Javascript UI Controls, users can customize and add the functio
 
 Cookies are small pieces of data stored on a user's device by the web browser while browsing a website. They are commonly used in web applications for various purposes, such as session management, user authentication, and tracking user behavior.
 
-Syncfusion Javascript controls are not using any type of cookies to store the any type of datas, apart from local storage. Local storage saves information only if the state persistence is turned on.
+Syncfusion Javascript controls are not using any type of cookies to store the any type of datas, apart from local storage. If persistence is enabled, data is stored in local storage.
