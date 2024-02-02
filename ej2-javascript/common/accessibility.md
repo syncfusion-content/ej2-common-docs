@@ -191,7 +191,7 @@ letter-spacing: 0.7px;
         <div class="controlanchorlink"><a target="_self" href="../check-box/accessibility">CheckBox</a></div>
         <div class="controlanchorlink"><a target="_self" href="../color-picker/accessibility">Color Picker</a></div>
         <div class="controlanchorlink"><a target="_self" href="../uploader/wai-aria-accessibility">File Upload</a></div>
-        <div class="controlanchorlink"><a target="_self" href="../range-slider/accessibility">Slider</a></div>
+        <div class="controlanchorlink"><a target="_self" href="../range-slider/accessibility">Range Slider</a></div>
         <div class="controlanchorlink"><a target="_self" href="../switch/accessibility">Toggle Switch Button</a></div>
         <div class="controlanchorlink"><a target="_self" href="../signature/accessibility">Signature</a></div>
         <div class="controlanchorlink"><a target="_self" href="../rating/accessibility">Rating</a></div>
