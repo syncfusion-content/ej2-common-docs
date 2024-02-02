@@ -64,20 +64,43 @@ Several Syncfusion UI controls accept user input values in the form of HTML stri
 
 When this property is enabled, the HTML string undergoes a thorough sanitization process before being rendered in the component. This approach ensures that user inputs containing potential security threats are meticulously filtered, addressing the risk of XSS and contributing to the overall security robustness of our components in the face of potential attacks.
 
-Some of Syncfusion JavaScript controls are enabled the sanitize property as default. These controls are below.
+Some Syncfusion JavaScript controls are utilize the sanitizer property. These controls are below.
 
 | Controls  | 
 |-----------|
+| [Accordion](https://ej2.syncfusion.com/documentation/api/accordion#enablehtmlsanitizer) |
+| [Button](https://ej2.syncfusion.com/documentation/api/button#enablehtmlsanitizer) |
+| [CheckBox](https://ej2.syncfusion.com/documentation/api/check-box/checkBoxModel/#enablehtmlsanitizer) |
+| [ContextMenu](https://ej2.syncfusion.com/documentation/api/context-menu#enablehtmlsanitizer) |
+| [Dashboard](https://ej2.syncfusion.com/documentation/api/dashboard-layout#enablehtmlsanitizer) |
+| [Dialog](https://ej2.syncfusion.com/documentation/api/dialog#enablehtmlsanitizer) |
+| [DropDown Button](https://ej2.syncfusion.com/documentation/api/drop-down-button#enablehtmlsanitizer) |
+| [DropDown Tree](https://ej2.syncfusion.com/documentation/api/drop-down-tree#enablehtmlsanitizer) |
+| [Floating Action Button](https://ej2.syncfusion.com/documentation/api/floating-action-button#enablehtmlsanitizer) |
+| [File manager](https://ej2.syncfusion.com/documentation/api/file-manager#enablehtmlsanitizer) |
+| [Gantt](https://ej2.syncfusion.com/documentation/api/gantt#enablehtmlsanitizer) |
+| [Grid](https://ej2.syncfusion.com/documentation/api/grid/#enablehtmlsanitizer) |
+| [Kanban](https://ej2.syncfusion.com/documentation/api/kanban#enablehtmlsanitizer)  |
+| [List View](https://ej2.syncfusion.com/documentation/api/list-view#enablehtmlsanitizer) |
+| [Menu](https://ej2.syncfusion.com/documentation/api/menu#enablehtmlsanitizer) |
+| [MultiSelect](https://ej2.syncfusion.com/documentation/api/multi-select#enablehtmlsanitizer) |
+| [Pivotfield](https://ej2.syncfusion.com/documentation/api/pivotfieldlist#enablehtmlsanitizer) |
+| [PivotView ](https://ej2.syncfusion.com/documentation/api/pivotview#enablehtmlsanitizer) |
+| [Progress Button](https://ej2.syncfusion.com/documentation/api/progress-button#enablehtmlsanitizer) |
+| [Radio Button](https://ej2.syncfusion.com/documentation/api/radio-button#enablehtmlsanitizer) |
 | [RichTextEditor](https://ej2.syncfusion.com/documentation/rich-text-editor/miscellaneous#custom-cross-site-scripting) |
 | [Schedule](https://ej2.syncfusion.com/documentation/api/schedule/#enablehtmlsanitizer)  |
-| [Kanban](https://ej2.syncfusion.com/documentation/api/kanban#enablehtmlsanitizer)  |
+| [Slider](https://ej2.syncfusion.com/documentation/api/slider#enablehtmlsanitizer) |
+| [Split Button](https://ej2.syncfusion.com/documentation/api/split-button#enablehtmlsanitizer) |
+| [Splitter](https://ej2.syncfusion.com/documentation/api/splitter#enablehtmlsanitizer) |
+| [Tab](https://ej2.syncfusion.com/documentation/api/tab#enablehtmlsanitizer) |
+| [Toast](https://ej2.syncfusion.com/documentation/api/toast#enablehtmlsanitizer) |
+| [Tooltip](https://ej2.syncfusion.com/documentation/api/tooltip#enablehtmlsanitizer) |
 | [Toolbar](https://ej2.syncfusion.com/documentation/api/toolbar#enablehtmlsanitizer)  |
-| [Uploader](https://ej2.syncfusion.com/documentation/api/uploader#enablehtmlsanitizer) |
-| [Dashboard](https://ej2.syncfusion.com/documentation/api/dashboard-layout#enablehtmlsanitizer) |
-| [Splitter](https://ej2.syncfusion.com/documentation/api/splitter#enablehtmlsanitizer)  |
-| [Dialog](https://ej2.syncfusion.com/documentation/api/dialog#enablehtmlsanitizer) |
 | [Toast](https://ej2.syncfusion.com/documentation/api/toast#enablehtmlsanitizer)  |
-| [File manager](https://ej2.syncfusion.com/documentation/api/file-manager#enablehtmlsanitizer) |
+| [TreeGrid](https://ej2.syncfusion.com/documentation/api/treegrid#enablehtmlsanitizer) |
+| [Treeview](https://ej2.syncfusion.com/documentation/api/treeview#enablehtmlsanitizer) |
+| [Uploader](https://ej2.syncfusion.com/documentation/api/uploader#enablehtmlsanitizer) |
 
 To sanitize input values in a web application using Syncfusion sanitizer, you can use the following code.
 
