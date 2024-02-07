@@ -30,7 +30,7 @@ Security is a critical aspect of software development, and considering security 
 * Content Security Policy
 * HTML Sanitizer
 * Function Template
-* Cookies
+* Browser Storage
 
 ### Content Security Policy
 
@@ -66,42 +66,92 @@ When this property is enabled, the HTML string undergoes a thorough sanitization
 
 Some Syncfusion JavaScript controls are utilize the sanitizer property. These controls are below.
 
-| Controls  | 
-|-----------|
-| [Accordion](https://ej2.syncfusion.com/documentation/api/accordion#enablehtmlsanitizer) |
-| [Button](https://ej2.syncfusion.com/documentation/api/button#enablehtmlsanitizer) |
-| [CheckBox](https://ej2.syncfusion.com/documentation/api/check-box/checkBoxModel/#enablehtmlsanitizer) |
-| [ContextMenu](https://ej2.syncfusion.com/documentation/api/context-menu#enablehtmlsanitizer) |
-| [Dashboard](https://ej2.syncfusion.com/documentation/api/dashboard-layout#enablehtmlsanitizer) |
-| [Dialog](https://ej2.syncfusion.com/documentation/api/dialog#enablehtmlsanitizer) |
-| [DropDown Button](https://ej2.syncfusion.com/documentation/api/drop-down-button#enablehtmlsanitizer) |
-| [DropDown Tree](https://ej2.syncfusion.com/documentation/api/drop-down-tree#enablehtmlsanitizer) |
-| [Floating Action Button](https://ej2.syncfusion.com/documentation/api/floating-action-button#enablehtmlsanitizer) |
-| [File manager](https://ej2.syncfusion.com/documentation/api/file-manager#enablehtmlsanitizer) |
-| [Gantt](https://ej2.syncfusion.com/documentation/api/gantt#enablehtmlsanitizer) |
-| [Grid](https://ej2.syncfusion.com/documentation/api/grid/#enablehtmlsanitizer) |
-| [Kanban](https://ej2.syncfusion.com/documentation/api/kanban#enablehtmlsanitizer)  |
-| [List View](https://ej2.syncfusion.com/documentation/api/list-view#enablehtmlsanitizer) |
-| [Menu](https://ej2.syncfusion.com/documentation/api/menu#enablehtmlsanitizer) |
-| [MultiSelect](https://ej2.syncfusion.com/documentation/api/multi-select#enablehtmlsanitizer) |
-| [Pivotfield](https://ej2.syncfusion.com/documentation/api/pivotfieldlist#enablehtmlsanitizer) |
-| [PivotView ](https://ej2.syncfusion.com/documentation/api/pivotview#enablehtmlsanitizer) |
-| [Progress Button](https://ej2.syncfusion.com/documentation/api/progress-button#enablehtmlsanitizer) |
-| [Radio Button](https://ej2.syncfusion.com/documentation/api/radio-button#enablehtmlsanitizer) |
-| [RichTextEditor](https://ej2.syncfusion.com/documentation/rich-text-editor/miscellaneous#custom-cross-site-scripting) |
-| [Schedule](https://ej2.syncfusion.com/documentation/api/schedule/#enablehtmlsanitizer)  |
-| [Slider](https://ej2.syncfusion.com/documentation/api/slider#enablehtmlsanitizer) |
-| [Split Button](https://ej2.syncfusion.com/documentation/api/split-button#enablehtmlsanitizer) |
-| [Splitter](https://ej2.syncfusion.com/documentation/api/splitter#enablehtmlsanitizer) |
-| [Tab](https://ej2.syncfusion.com/documentation/api/tab#enablehtmlsanitizer) |
-| [Toast](https://ej2.syncfusion.com/documentation/api/toast#enablehtmlsanitizer) |
-| [Tooltip](https://ej2.syncfusion.com/documentation/api/tooltip#enablehtmlsanitizer) |
-| [Toolbar](https://ej2.syncfusion.com/documentation/api/toolbar#enablehtmlsanitizer)  |
-| [Toast](https://ej2.syncfusion.com/documentation/api/toast#enablehtmlsanitizer)  |
-| [TreeGrid](https://ej2.syncfusion.com/documentation/api/treegrid#enablehtmlsanitizer) |
-| [Treeview](https://ej2.syncfusion.com/documentation/api/treeview#enablehtmlsanitizer) |
-| [Uploader](https://ej2.syncfusion.com/documentation/api/uploader#enablehtmlsanitizer) |
+<style>
+# table
+{
+border:0 !important;
+line-height: 2!important;
+}
 
+tr
+{
+border:0 !important;
+}
+
+td
+{
+border:0 !important;
+vertical-align: top;
+}
+
+.controlanchorlink
+{
+text-decoration: none !important;
+font-size: 14px !important;
+text-align: left !important;
+padding: 5px 0px;
+letter-spacing: 1px;
+}
+.controlcategory
+{
+font-size: 14px !important;
+text-align: left !important;
+font-weight: bold !important;
+letter-spacing: 0.7px;
+}
+
+</style>
+
+<table id="table" style="border: 0px;">
+<tbody>
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+</tbody>
+<tr>
+  <td>
+      <div><p class="controlcategory">Controls</p></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/accordion#enablehtmlsanitizer">Accordion</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/button#enablehtmlsanitizer">Button</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/check-box/checkBoxModel/#enablehtmlsanitizer">CheckBox</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/context-menu#enablehtmlsanitizer">ContextMenu</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/dashboard-layout#enablehtmlsanitizer">Dashboard</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/dialog#enablehtmlsanitizer">Dialog</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/drop-down-button#enablehtmlsanitizer">DropDown Button</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/drop-down-tree#enablehtmlsanitizer">DropDown Tree</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/floating-action-button#enablehtmlsanitizer">Floating Action Button</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/file-manager#enablehtmlsanitizer">File Manager</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/gantt#enablehtmlsanitizer">Gantt</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/grid/#enablehtmlsanitizer">Grid</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/kanban#enablehtmlsanitizer">Kanban</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/list-view#enablehtmlsanitizer">List View</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/menu#enablehtmlsanitizer">Menu</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/multi-select#enablehtmlsanitizer">MultiSelect</a></div>
+  </td>
+  <td>
+      <div><p class="controlcategory">Controls</p></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/pivotfieldlist#enablehtmlsanitizer">Pivotfield</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/pivotview#enablehtmlsanitizer">PivotView</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/progress-button#enablehtmlsanitizer">Progress Button</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/radio-button#enablehtmlsanitizer">Radio Button</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/rich-text-editor/miscellaneous#custom-cross-site-scripting">RichTextEditor</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/schedule/#enablehtmlsanitizer">Schedule</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/slider#enablehtmlsanitizer">Slider</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/split-button#enablehtmlsanitizer">Split Button</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/splitter#enablehtmlsanitizer">Splitter</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/tab#enablehtmlsanitizer">Tab</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/toast#enablehtmlsanitizer">Toast</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/tooltip#enablehtmlsanitizer">Tooltip</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/toolbar#enablehtmlsanitizer">Toolbar</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/treegrid#enablehtmlsanitizer">TreeGrid</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/treeview#enablehtmlsanitizer">Treeview</a></div>
+      <div class="controlanchorlink"><a target="_blank" href="https://ej2.syncfusion.com/documentation/api/uploader#enablehtmlsanitizer">Uploader</a></div>
+  </td>
+</tr>
+</table>
 To sanitize input values in a web application using Syncfusion sanitizer, you can use the following code.
 
 ```ts
@@ -125,13 +175,59 @@ let dialog: Dialog = new Dialog({
       '<div id="dlg-template" title="Nancy" class="e-icon-settings"> Nancy </div><div onmousemove=function(){alert("XSS")}>XSS</div>') 
   }); 
 ```
+When `enableHtmlSanitizer` is `true`, the content will be sanitized and displays the code.
+
+![With sanitizer property](images/with-sanitizer-property.PNG)
+
+When `enableHtmlSanitizer` is `false` or not included this property, the malicious code will be interpreted as script, and the alert pop-up window will be open.
+
+![Without sanitizer property](images/without-sanitizer-property.PNG)
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/common/draggable-default-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/draggable-default-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/common/draggable-default-cs1" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/common/draggable-default-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/draggable-default-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/common/draggable-default-cs1" %}
+{% endif %}
 
 ### Function Template
 
  Users can customize the control's appearance and functionality to suit their application's specific needs through template support. Syncfusion function template support also compatible with Content Security Policy. For more information, you can refer this [documentation](https://ej2.syncfusion.com/documentation/common/template#function-template).
 
-### Preventing from Third-Party Cookies
+### Browser Storage
+Browser storage refers to the mechanisms provided by web browsers to store data locally on a user's device. There are mainly two types of browser storage options available to web developers.
 
-Cookies are small pieces of data stored on a user's device by the web browser while browsing a website. They are commonly used in web applications for various purposes, such as session management, user authentication, and tracking user behavior.
+* Cookies 
+* Local Storage
 
-Syncfusion JavaScript controls are not using any type of cookies to store the any type of datas, apart from local storage. If persistence is enabled, data is stored in local storage. Local Storage are enabled by default in web browsers and it store the data on the client side.
+#### Cookies
+
+[Cookies](https://www.cloudflare.com/en-gb/learning/privacy/what-are-cookies/) are small pieces of data stored on a user's device by the web browser while browsing a website. They are commonly used in web applications for various purposes, such as session management, user authentication, and tracking user behavior.
+
+Syncfusion JavaScript controls do not utilize any cookies to store data.
+
+#### Local Storage
+
+[Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) is a type of web storage mechanism provided by web browsers that allows web applications to store data locally on a user's device. It provides a simple key-value pair storage interface and is accessible via JavaScript.
+
+Syncfusion JavaScript controls utilize local storage only when persistence is enabled.
