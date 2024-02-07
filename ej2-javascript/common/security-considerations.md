@@ -177,11 +177,11 @@ let dialog: Dialog = new Dialog({
 ```
 When `enableHtmlSanitizer` is `true`, the content will be sanitized and displays the code.
 
-![With sanitizer property](images/with-sanitizer-property.PNG)
+![With sanitizer property](images/with-sanitizer-property.png)
 
 When `enableHtmlSanitizer` is `false` or not included this property, the malicious code will be interpreted as script, and the alert pop-up window will be open.
 
-![Without sanitizer property](images/without-sanitizer-property.PNG)
+![Without sanitizer property](images/without-sanitizer-property.png)
 
 {% if page.publishingplatform == "typescript" %}
 
