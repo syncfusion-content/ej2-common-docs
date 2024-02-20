@@ -31,6 +31,7 @@ Security is a critical aspect of software development, and considering security 
 * HTML Sanitizer
 * Function Template
 * Browser Storage
+* Memory Cache
 
 ### Content Security Policy
 
