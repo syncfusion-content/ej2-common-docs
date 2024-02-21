@@ -25,7 +25,7 @@ To implement the web application with secured aspects, Syncfusion JavaScript con
 
 ## Security Considerations
 
-Security is a critical aspect of software development, and considering security from the beginning of the development process is essential to secure applications. Here are some key security considerations for Syncfusion JavaScript controls.
+Security holds significant importance in software development, and the incorporation of security measures from the outset of the development process is vital for the protection of applications. Syncfusion takes a thorough approach to security in the development of JavaScript controls, encompassing all critical aspects. The following considerations provide a comprehensive overview of security measures implemented by Syncfusion.
 
 * Content Security Policy
 * HTML Sanitizer
@@ -41,12 +41,16 @@ To implement Content Security Policy (CSP) in your application, include a `<meta
 
 #### CSP Directives
 
+Below are the mandatory directives for the Syncfusion Javascript Controls.
+
 |    Directives    |    Description    |    Examples    |
 |------------------|-------------------|----------------|
 |  `style-src`  | Defines the allowed sources for loading stylesheets. This helps mitigate style-based attacks by restricting the locations from which styles can be applied. | `style-src 'self' https://cdn.syncfusion.com/ https://fonts.googleapis.com/ 'unsafe-inline';`|
 |  `font-src`  | Defines the allowed sources for loading fonts. It helps prevent font-related security issues by restricting the locations from which fonts can be loaded. | `font-src 'self' https://fonts.googleapis.com/ https://fonts.gstatic.com/ data: cdn.syncfusion.com 'unsafe-inline';` |
 |  `img-src`  | Specifies the allowed sources for loading images. It helps control from where images can be displayed on the web page. | `img-src 'self' data:"` |
-| `worker-src` |  Specifies the allowed sources from which the browser can load worker scripts, such as Web Workers or Service Workers, thereby enhancing security against cross-site scripting attacks. | `worker-src 'self' 'unsafe-inline' * blob:;`
+
+> Utilizing a web worker within the spreadsheet component for exporting necessitates the addition of a specific directive to ensure proper functionality during the export process.
+`worker-src 'self' 'unsafe-inline' * blob:;`
 
 #### CSP Sources
 
@@ -62,7 +66,7 @@ To know more information about the CSP, refer this [documentation](https://ej2.s
 
 An HTML sanitizer is a tool or program that helps remove potentially malicious or harmful code from HTML documents. This type of sanitizer is commonly used in web applications to prevent cross-site scripting (XSS) attacks, which can inject malicious code into a website and compromise user data. HTML sanitizers typically work by analyzing HTML code and removing any potentially dangerous or unwanted elements, such as script tags, inline styles, or event handlers. They may also modify or clean up other aspects of the HTML, such as removing extra whitespace or fixing malformed code.
 
-Several Syncfusion UI controls accept user input values in the form of HTML strings, to prevent the malicious code injection we have implemented the [enableHtmlSanitizer](https://ej2.syncfusion.com/javascript/documentation/api/button#enablehtmlsanitizer) API.
+To avoid the risk of code injection, Syncfusion has provided the [enableHtmlSanitizer](https://ej2.syncfusion.com/javascript/documentation/api/button#enablehtmlsanitizer) API into its UI controls. This ensures that HTML strings submitted by users are sanitized, enhancing security measures against potential threats.
 
 When this property is enabled, the HTML string undergoes a thorough sanitization process before being rendered in the component. This approach ensures that user inputs containing potential security threats are meticulously filtered, addressing the risk of XSS and contributing to the overall security robustness of our components in the face of potential attacks.
 
@@ -126,7 +130,7 @@ When `enableHtmlSanitizer` is `false` or not included this property, the malicio
 
 ### Function Template
 
-Users can customize the control's appearance and functionality to suit their application's specific needs through template support. Syncfusion function template support also compatible with Content Security Policy. For more information, you can refer this [documentation](https://ej2.syncfusion.com/documentation/common/template#function-template).
+Syncfusion Javascript controls has Function Template support that accept one or more UI segments as input and can be rendered as part of the controls during control rendering. For more information, you can refer this [documentation](https://ej2.syncfusion.com/documentation/common/template#function-template).
 
 ### Browser Storage
 
@@ -139,7 +143,3 @@ Browser storage refers to the mechanisms provided by web browsers to store data 
 [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API) is a type of web storage mechanism provided by web browsers that allows web applications to store data locally on a user's device. It provides a simple key-value pair storage interface and is accessible via JavaScript.
 
 Syncfusion JavaScript controls utilize local storage only when persistence is enabled.
-
-### Memory Cache
-
-In the server-side application, the `Memory Cache` option is used to store the data source and engine properties in RAM, which will be used for UI operations. To improve performance, this limits the execution of all initial rendering code to regenerate the aggregated values during each UI operation. For more information please refer this [documentation](https://ej2.syncfusion.com/javascript/documentation/pivotview/server-side-pivot-engine#memory-cache).
