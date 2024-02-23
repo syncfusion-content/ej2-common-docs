@@ -105,27 +105,27 @@ When `enableHtmlSanitizer` is `false` or not included this property, the malicio
 
  {% tabs %}
 {% highlight ts tabtitle="index.ts" %}
-{% include code-snippet/common/draggable-default-cs1/index.ts %}
+{% include code-snippet/common/enable-sanitizer-cs1/index.ts %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/common/draggable-default-cs1/index.html %}
+{% include code-snippet/common/enable-sanitizer-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
         
-{% previewsample "page.domainurl/code-snippet/common/draggable-default-cs1" %}
+{% previewsample "page.domainurl/code-snippet/common/enable-sanitizer-cs1" %}
 
 {% elsif page.publishingplatform == "javascript" %}
 
 {% tabs %}
 {% highlight js tabtitle="index.js" %}
-{% include code-snippet/common/draggable-default-cs1/index.js %}
+{% include code-snippet/common/enable-sanitizer-cs1/index.js %}
 {% endhighlight %}
 {% highlight html tabtitle="index.html" %}
-{% include code-snippet/common/draggable-default-cs1/index.html %}
+{% include code-snippet/common/enable-sanitizer-cs1/index.html %}
 {% endhighlight %}
 {% endtabs %}
 
-{% previewsample "page.domainurl/code-snippet/common/draggable-default-cs1" %}
+{% previewsample "page.domainurl/code-snippet/common/enable-sanitizer-cs1" %}
 {% endif %}
 
 ### Function Template
