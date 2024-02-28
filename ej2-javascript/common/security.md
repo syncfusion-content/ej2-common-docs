@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Syncfusion JavaScript - Security Considerations
+# Security Considerations in Syncfusion ##Platform_Name## controls
 
 Security is a critical aspect of web applications to protect them from various threats and vulnerabilities. Using HTTPS to encrypt data, checking and cleaning user inputs, and setting up robust authentication methods like multi-factor authentication are essential steps.
 
@@ -27,11 +27,10 @@ To implement the web application with secured aspects, Syncfusion JavaScript con
 
 Security holds significant importance in software development, and the incorporation of security measures from the outset of the development process is vital for the protection of applications. Syncfusion takes a thorough approach to security in the development of JavaScript controls, encompassing all critical aspects. The following considerations provide a comprehensive overview of security measures implemented by Syncfusion.
 
-* Content Security Policy
-* HTML Sanitizer
-* Function Template
-* Browser Storage
-* Memory Cache
+* [Content Security Policy](#content-security-policy)
+* [HTML Sanitizer](#html-sanitizer)
+* [Function Template](#function-template)
+* [Browser Storage](#browser-storage)
 
 ### Content Security Policy
 
