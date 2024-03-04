@@ -9,7 +9,7 @@ documentation: ug
 domainurl: ##DomainURL##
 ---
 
-# Security Vulnerabilities and Considerations in Syncfusion ##Platform_Name## Controls
+#  Syncfusion ##Platform_Name## Controls - Security
 
 Security is a critical aspect of web applications to protect them from various threats and vulnerabilities. Using HTTPS for data encryption, validating and sanitizing user inputs, and implementing strong authentication measures such as multi-factor authentication are indispensable practices in Web application development.
 
