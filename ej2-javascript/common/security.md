@@ -88,13 +88,11 @@ let sanitizedHtml: string = SanitizeHtmlHelper.sanitize(html);
 For sanitizing the template content using Syncfusion JavaScript controls, please see the provided code below.
 
 ```ts
-import { Dialog } from '@syncfusion/ej2-popups'; 
-import { Button } from '@syncfusion/ej2-buttons'; 
+import { Dialog } from '@syncfusion/ej2-popups'; ; 
 import { SanitizeHtmlHelper } from '@syncfusion/ej2-base'; 
 
 let dialog: Dialog = new Dialog({ 
   header: SanitizeHtmlHelper.sanitize( 
-    headerimg + 
       '<div id="dlg-template" title="Nancy" class="e-icon-settings"> Nancy </div><div onmousemove=function(){alert("XSS")}>XSS</div>') 
   }); 
 ```
