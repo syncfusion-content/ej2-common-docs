@@ -18,7 +18,7 @@ Syncfusion JavaScript (Essential JS 2) is a modern UI Controls library that has 
 The Syncfusion JavaScript UI controls are listed below.
 
 <style>
-# table
+#table
 {
 border:0 !important;
 line-height: 2!important;
