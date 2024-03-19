@@ -45,21 +45,6 @@ Syncfusion's Material 3 theme incorporates support for CSS variables, utilizing 
   --color-sf-on-tertiary: 255, 255, 255;
 }
 ```
-
-### Color Customization in Material 3
-
-CSS variables allows you to dynamically change color values in real-time using JavaScript. This flexibility enables you to create interactive experiences where colors can adjust based on user interactions or other dynamic factors.
-
-**Default primary value**
-
-![default primary value](images/material3-default.PNG)
-
-**Customized primary value**
-
-![customized primary value](images/material3-customize.PNG)
-
-With this CSS variable support, you can effortlessly customize the color variable values for Syncfusion JavaScript controls.
-
 ### How to get the Material 3 theme?
 
 To access the Material 3 theme provided by Syncfusion, you have two primary options,
@@ -71,6 +56,82 @@ To access the Material 3 theme provided by Syncfusion, you have two primary opti
 |-----------|---------|--------|
 |Package  | [Material 3 Light](https://www.npmjs.com/package/@syncfusion/ej2-material3-theme) | [Material 3 Dark](https://www.npmjs.com/package/@syncfusion/ej2-material3-dark-theme) |
 | CDN  |  [Material 3 Light](https://cdn.syncfusion.com/ej2/24.2.8/material3.css)  |  [Material 3 Dark](https://cdn.syncfusion.com/ej2/24.2.8/material3-dark.css)  |
+
+### Color Customization in Material 3
+
+CSS variables allows you to dynamically change color values in real-time using JavaScript. This flexibility enables you to create interactive experiences where colors can adjust based on user interactions or other dynamic factors.
+
+#### Customization using CSS
+
+Here you can find the example for Material 3 customization using Css class.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/common/material3-cs1/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/material3-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/common/material3-cs1" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/common/material3-cs1/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/material3-cs1/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/common/material3-cs1" %}
+{% endif %}
+
+#### Customization using JavaScript
+
+Here you can find the example for Material 3 customization using JavaScript.
+
+{% if page.publishingplatform == "typescript" %}
+
+ {% tabs %}
+{% highlight ts tabtitle="index.ts" %}
+{% include code-snippet/common/material3-cs3/index.ts %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/material3-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+        
+{% previewsample "page.domainurl/code-snippet/common/material3-cs3" %}
+
+{% elsif page.publishingplatform == "javascript" %}
+
+{% tabs %}
+{% highlight js tabtitle="index.js" %}
+{% include code-snippet/common/material3-cs3/index.js %}
+{% endhighlight %}
+{% highlight html tabtitle="index.html" %}
+{% include code-snippet/common/material3-cs3/index.html %}
+{% endhighlight %}
+{% endtabs %}
+
+{% previewsample "page.domainurl/code-snippet/common/material3-cs3" %}
+{% endif %}
+
+**Default primary value**
+
+![default primary value](images/material3-default.PNG)
+
+**Customized primary value**
+
+![customized primary value](images/material3-customize.PNG)
+
+With this CSS variable support, you can effortlessly customize the color variable values for Syncfusion JavaScript controls.
 
 ### Material 3 Light Theme
 
